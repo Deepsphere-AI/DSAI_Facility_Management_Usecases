@@ -10,6 +10,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LogisticRegression
 from sklearn.preprocessing import OneHotEncoder, MinMaxScaler
 from sklearn.metrics import accuracy_score
+from bokeh.models.widgets import Div
 
 ASSISTANT_ID = os.environ["ASSISTANT_ID"]
 
@@ -93,9 +94,9 @@ def SpaceOptimization():
     "text/csv",
     key='download-csv'
     )
-    # Step 8 - Model Outcome Visualization & Download
-    if len(vAR_st.session_state.vAR_model_outcome)>0 and vAR_st.session_state.flag:
-        ModelOutcomeVisuals(vAR_model_outcome)
+    # # Step 8 - Model Outcome Visualization & Download
+    # if len(vAR_st.session_state.vAR_model_outcome)>0 and vAR_st.session_state.flag:
+    #     ModelOutcomeVisuals(vAR_model_outcome)
         
     # Step 9 - Looker studio Reports
     
@@ -399,7 +400,10 @@ def ExploreWithLooker():
         vAR_visual_looker = vAR_st.button("Explore With LookerStudio")
         
         if vAR_visual_looker:
-                vAR_st.write("Testes")
+            js = "window.open('https://lookerstudio.google.com/reporting/75803ec5-7b41-447f-87db-0db79391dd0f')"
+            html = '<img src onerror="{}">'.format(js)
+            div = Div(text=html)
+            vAR_st.bokeh_chart(div)
             
             
             
