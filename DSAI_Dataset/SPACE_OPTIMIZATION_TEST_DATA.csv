@@ -1,0 +1,404 @@
+Date,Time,DayOfWeek,AreaID,AreaType,OccupancyCount,Event,FootTraffic,EmployeePreferences,Temperature,LightingLevel,NoiseLevel,SpaceCondition,SpecialEquipment,AreaSize_sqft,RoomCapacity,UtilizationLabel
+2023-03-08,16:00,Wednesday,A042,Private Office,48,Team Meeting,62,Collaborative,25.5,Medium,Moderate,Available,None,986,65,High
+2023-03-08,17:00,Wednesday,A052,Open Space,40,Workshop,75,Quiet,23.4,Medium,Quiet,Occupied,Whiteboard,261,58,High
+2023-03-08,18:00,Wednesday,A005,Meeting Room,16,Workshop,43,Quiet,19,Dim,Moderate,Available,Projector,290,61,Low
+2023-03-08,19:00,Wednesday,A026,Private Office,23,None,37,Collaborative,18.6,Medium,Quiet,Available,Whiteboard,108,58,Medium
+2023-03-08,20:00,Wednesday,A099,Meeting Room,20,Client Visit,82,Flexible,21.9,Bright,Loud,Available,None,159,54,Medium
+2023-03-08,21:00,Wednesday,A083,Meeting Room,38,Workshop,59,Flexible,19.8,Bright,Loud,Occupied,Computer,992,61,Medium
+2023-03-08,22:00,Wednesday,A004,Meeting Room,40,Workshop,70,Quiet,20,Bright,Loud,Available,Computer,916,39,High
+2023-03-08,23:00,Wednesday,A001,Private Office,38,Workshop,98,Collaborative,25,Bright,Moderate,Available,Computer,324,57,High
+2023-03-09,00:00,Thursday,A054,Open Space,12,Client Visit,47,Quiet,18.7,Bright,Quiet,Available,None,918,59,Low
+2023-03-09,01:00,Thursday,A067,Private Office,10,Team Meeting,17,Collaborative,23.7,Bright,Quiet,Occupied,Projector,799,50,Low
+2023-03-09,02:00,Thursday,A003,Open Space,45,Team Meeting,15,Flexible,20.2,Bright,Moderate,Available,None,681,53,High
+2023-03-09,03:00,Thursday,A059,Open Space,18,Workshop,54,Quiet,24.1,Dim,Moderate,Available,Projector,904,52,Medium
+2023-03-09,04:00,Thursday,A082,Open Space,10,Team Meeting,38,Flexible,23.8,Medium,Quiet,Available,Projector,386,56,Low
+2023-03-09,05:00,Thursday,A072,Open Space,12,Client Visit,67,Quiet,18.1,Medium,Loud,Available,Whiteboard,268,49,Low
+2023-03-09,06:00,Thursday,A089,Open Space,45,None,58,Quiet,22.1,Medium,Loud,Available,Projector,161,57,High
+2023-03-09,07:00,Thursday,A049,Meeting Room,44,Workshop,88,Collaborative,19.1,Medium,Moderate,Available,Whiteboard,448,55,High
+2023-03-09,08:00,Thursday,A001,Open Space,0,None,95,Quiet,24.9,Medium,Loud,Available,Projector,541,57,Low
+2023-03-09,09:00,Thursday,A082,Meeting Room,39,Client Visit,61,Flexible,25,Dim,Moderate,Occupied,Whiteboard,113,56,High
+2023-03-09,10:00,Thursday,A049,Private Office,43,None,12,Quiet,21.3,Dim,Quiet,Available,None,263,55,High
+2023-03-09,11:00,Thursday,A072,Open Space,18,Client Visit,80,Collaborative,21.6,Dim,Quiet,Under Maintenance,Computer,519,49,Medium
+2023-03-09,12:00,Thursday,A021,Meeting Room,11,Client Visit,5,Flexible,20.4,Bright,Loud,Under Maintenance,Computer,856,60,Low
+2023-03-09,13:00,Thursday,A027,Open Space,7,Workshop,82,Collaborative,23.7,Dim,Loud,Available,Projector,946,54,Low
+2023-03-09,14:00,Thursday,A052,Private Office,7,Workshop,76,Quiet,20.9,Bright,Quiet,Available,Computer,619,58,Low
+2023-03-09,15:00,Thursday,A008,Private Office,44,Client Visit,59,Quiet,20.1,Dim,Loud,Occupied,None,765,58,High
+2023-03-09,16:00,Thursday,A090,Meeting Room,11,Client Visit,89,Flexible,21.5,Bright,Moderate,Available,Projector,647,54,Low
+2023-03-09,17:00,Thursday,A058,Meeting Room,47,None,13,Flexible,18.7,Bright,Quiet,Under Maintenance,None,659,65,High
+2023-03-09,18:00,Thursday,A048,Meeting Room,32,Team Meeting,94,Collaborative,24,Dim,Moderate,Occupied,Computer,696,53,Medium
+2023-03-09,19:00,Thursday,A021,Meeting Room,44,Workshop,53,Collaborative,18.1,Dim,Quiet,Occupied,Projector,127,60,High
+2023-03-09,20:00,Thursday,A086,Open Space,25,None,3,Quiet,23.2,Dim,Moderate,Under Maintenance,Projector,807,57,Medium
+2023-03-09,21:00,Thursday,A032,Private Office,38,None,38,Collaborative,19.5,Dim,Quiet,Available,None,545,60,Medium
+2023-03-09,22:00,Thursday,A087,Meeting Room,27,Team Meeting,71,Quiet,19.9,Bright,Quiet,Available,Whiteboard,307,65,Medium
+2023-03-09,23:00,Thursday,A052,Private Office,4,Client Visit,24,Quiet,23.1,Bright,Loud,Under Maintenance,Computer,569,58,Low
+2023-03-10,00:00,Friday,A093,Open Space,7,Workshop,76,Collaborative,25.9,Dim,Loud,Under Maintenance,Whiteboard,815,47,Low
+2023-03-10,01:00,Friday,A048,Open Space,24,Client Visit,31,Flexible,24.2,Medium,Loud,Available,Computer,918,53,Medium
+2023-03-10,02:00,Friday,A009,Open Space,26,Team Meeting,58,Flexible,19.8,Dim,Quiet,Available,None,203,47,Medium
+2023-03-10,03:00,Friday,A013,Private Office,45,Client Visit,62,Quiet,19.4,Medium,Loud,Occupied,Projector,841,47,High
+2023-03-10,04:00,Friday,A062,Private Office,22,Workshop,37,Quiet,24.9,Bright,Moderate,Available,Whiteboard,525,55,Medium
+2023-03-10,05:00,Friday,A036,Meeting Room,29,None,91,Quiet,21.6,Medium,Loud,Occupied,Projector,200,50,Medium
+2023-03-10,06:00,Friday,A096,Meeting Room,44,None,52,Collaborative,19.1,Dim,Moderate,Occupied,Whiteboard,640,47,High
+2023-03-10,07:00,Friday,A089,Private Office,46,Client Visit,93,Collaborative,24.9,Bright,Moderate,Occupied,Projector,738,57,High
+2023-03-10,08:00,Friday,A052,Open Space,22,None,66,Collaborative,24.5,Bright,Quiet,Under Maintenance,Computer,949,58,Medium
+2023-03-10,09:00,Friday,A008,Open Space,48,Client Visit,27,Flexible,25.9,Medium,Loud,Available,Whiteboard,621,58,High
+2023-03-10,10:00,Friday,A027,Private Office,46,Team Meeting,2,Quiet,25.3,Dim,Loud,Occupied,None,205,54,High
+2023-03-10,11:00,Friday,A024,Private Office,19,Team Meeting,97,Collaborative,24.8,Bright,Moderate,Occupied,Whiteboard,778,46,Medium
+2023-03-10,12:00,Friday,A078,Private Office,17,Workshop,79,Collaborative,18.4,Bright,Moderate,Occupied,None,868,59,Low
+2023-03-10,13:00,Friday,A073,Meeting Room,17,Team Meeting,21,Flexible,18.8,Bright,Quiet,Occupied,None,906,48,Medium
+2023-03-10,14:00,Friday,A032,Open Space,1,Client Visit,95,Flexible,22.6,Bright,Quiet,Available,Computer,376,60,Low
+2023-03-10,15:00,Friday,A094,Meeting Room,3,Client Visit,37,Collaborative,22.3,Dim,Moderate,Under Maintenance,Projector,164,49,Low
+2023-03-10,16:00,Friday,A098,Open Space,29,None,71,Flexible,21.7,Dim,Moderate,Occupied,Projector,882,51,Medium
+2023-03-10,17:00,Friday,A080,Private Office,32,Team Meeting,71,Quiet,21.2,Medium,Loud,Under Maintenance,Projector,999,58,Medium
+2023-03-10,18:00,Friday,A051,Open Space,35,None,61,Quiet,21.4,Bright,Moderate,Occupied,Projector,287,54,Medium
+2023-03-10,19:00,Friday,A062,Private Office,17,None,56,Flexible,22.6,Medium,Quiet,Occupied,None,416,55,Low
+2023-03-10,20:00,Friday,A082,Meeting Room,36,Workshop,5,Flexible,18,Bright,Quiet,Occupied,None,237,56,Medium
+2023-03-10,21:00,Friday,A030,Open Space,18,None,77,Collaborative,20.1,Medium,Quiet,Occupied,None,442,50,Medium
+2023-03-10,22:00,Friday,A065,Open Space,46,None,31,Quiet,22.1,Bright,Loud,Occupied,Projector,204,68,High
+2023-03-10,23:00,Friday,A001,Meeting Room,27,Client Visit,98,Flexible,23.8,Dim,Loud,Occupied,None,645,57,Medium
+2023-03-11,00:00,Saturday,A049,Open Space,39,None,9,Flexible,19.4,Dim,Moderate,Available,Whiteboard,479,55,High
+2023-03-11,01:00,Saturday,A029,Private Office,19,None,2,Flexible,22.4,Medium,Quiet,Under Maintenance,Computer,209,44,Medium
+2023-03-11,02:00,Saturday,A012,Meeting Room,48,Workshop,58,Flexible,23.7,Bright,Loud,Available,Projector,644,48,High
+2023-03-11,03:00,Saturday,A063,Meeting Room,32,Workshop,75,Flexible,21.6,Bright,Loud,Available,Projector,453,60,Medium
+2023-03-11,04:00,Saturday,A010,Open Space,11,None,48,Collaborative,18.2,Medium,Quiet,Available,None,842,53,Low
+2023-03-11,05:00,Saturday,A047,Open Space,14,Client Visit,58,Quiet,21.6,Dim,Quiet,Available,Whiteboard,416,53,Low
+2023-03-11,06:00,Saturday,A033,Private Office,40,None,30,Flexible,20.4,Medium,Quiet,Occupied,Projector,365,58,High
+2023-03-11,07:00,Saturday,A041,Open Space,38,Team Meeting,92,Flexible,25.4,Bright,Moderate,Occupied,Projector,793,55,High
+2023-03-11,08:00,Saturday,A073,Private Office,1,Workshop,68,Collaborative,19,Medium,Quiet,Occupied,Whiteboard,951,48,Low
+2023-03-11,09:00,Saturday,A038,Meeting Room,28,Client Visit,61,Quiet,23.2,Bright,Moderate,Under Maintenance,Computer,164,49,Medium
+2023-03-11,10:00,Saturday,A083,Meeting Room,40,None,51,Quiet,18.4,Dim,Moderate,Occupied,Whiteboard,432,61,Medium
+2023-03-11,11:00,Saturday,A043,Open Space,9,Team Meeting,88,Quiet,21.6,Bright,Loud,Occupied,None,612,39,Low
+2023-03-11,12:00,Saturday,A032,Meeting Room,1,Team Meeting,40,Quiet,22.4,Dim,Moderate,Available,None,232,60,Low
+2023-03-11,13:00,Saturday,A045,Meeting Room,10,Client Visit,30,Flexible,20.4,Dim,Moderate,Under Maintenance,None,691,56,Low
+2023-03-11,14:00,Saturday,A099,Private Office,12,None,84,Collaborative,21.6,Medium,Quiet,Occupied,None,882,54,Low
+2023-03-11,15:00,Saturday,A006,Meeting Room,9,Workshop,83,Flexible,19.3,Dim,Quiet,Available,Projector,852,46,Low
+2023-03-11,16:00,Saturday,A064,Private Office,13,Workshop,21,Flexible,20.4,Medium,Quiet,Available,Computer,639,52,Low
+2023-03-11,17:00,Saturday,A089,Private Office,17,Workshop,3,Flexible,23,Medium,Moderate,Occupied,Projector,834,57,Low
+2023-03-11,18:00,Saturday,A052,Open Space,8,Workshop,12,Quiet,20.4,Medium,Quiet,Available,None,634,58,Low
+2023-03-11,19:00,Saturday,A090,Meeting Room,38,Client Visit,44,Quiet,25.2,Dim,Quiet,Available,Computer,595,54,High
+2023-03-11,20:00,Saturday,A061,Open Space,27,None,41,Quiet,23,Bright,Quiet,Available,Whiteboard,720,59,Medium
+2023-03-11,21:00,Saturday,A050,Meeting Room,2,None,48,Quiet,21.5,Dim,Quiet,Occupied,None,718,61,Low
+2023-03-11,22:00,Saturday,A017,Meeting Room,19,Team Meeting,19,Quiet,18.3,Bright,Moderate,Available,Whiteboard,756,61,Low
+2023-03-11,23:00,Saturday,A003,Meeting Room,5,None,76,Collaborative,22,Bright,Quiet,Available,None,468,53,Low
+2023-03-12,00:00,Sunday,A047,Meeting Room,26,Team Meeting,80,Collaborative,24.1,Medium,Loud,Occupied,Whiteboard,965,53,Medium
+2023-03-12,01:00,Sunday,A047,Meeting Room,1,Client Visit,53,Flexible,20.1,Dim,Quiet,Occupied,Whiteboard,750,53,Low
+2023-03-12,02:00,Sunday,A009,Private Office,28,Workshop,35,Quiet,24.5,Bright,Quiet,Occupied,Computer,895,47,Medium
+2023-03-12,03:00,Sunday,A040,Meeting Room,37,Team Meeting,96,Quiet,20,Medium,Moderate,Available,Whiteboard,909,59,Medium
+2023-03-12,04:00,Sunday,A088,Open Space,2,None,0,Flexible,24.6,Bright,Moderate,Available,Projector,198,62,Low
+2023-03-12,05:00,Sunday,A005,Private Office,15,Team Meeting,14,Flexible,18.7,Dim,Quiet,Under Maintenance,Whiteboard,416,61,Low
+2023-03-12,06:00,Sunday,A020,Open Space,29,Client Visit,76,Quiet,24.9,Dim,Quiet,Available,Computer,222,63,Medium
+2023-03-12,07:00,Sunday,A060,Open Space,39,Team Meeting,16,Flexible,22,Medium,Loud,Available,None,419,49,High
+2023-03-12,08:00,Sunday,A092,Open Space,1,Workshop,23,Quiet,20.4,Dim,Moderate,Available,Computer,898,55,Low
+2023-03-12,09:00,Sunday,A002,Open Space,16,Workshop,57,Flexible,20.1,Dim,Quiet,Occupied,None,692,50,Low
+2023-03-12,10:00,Sunday,A098,Meeting Room,40,Team Meeting,71,Collaborative,21.5,Bright,Moderate,Occupied,Whiteboard,594,51,High
+2023-03-12,11:00,Sunday,A025,Private Office,11,Team Meeting,90,Collaborative,26,Dim,Quiet,Under Maintenance,None,556,57,Low
+2023-03-12,12:00,Sunday,A018,Meeting Room,34,Client Visit,22,Collaborative,19.8,Dim,Loud,Under Maintenance,Projector,621,56,Medium
+2023-03-12,13:00,Sunday,A095,Meeting Room,42,Client Visit,45,Flexible,18.8,Bright,Moderate,Available,None,619,47,High
+2023-03-12,14:00,Sunday,A048,Private Office,0,Team Meeting,71,Collaborative,22.7,Medium,Loud,Available,Whiteboard,816,53,Low
+2023-03-12,15:00,Sunday,A043,Open Space,44,Workshop,7,Flexible,21.9,Bright,Loud,Available,None,414,39,High
+2023-03-12,16:00,Sunday,A002,Meeting Room,14,Client Visit,58,Collaborative,22.2,Medium,Quiet,Occupied,Computer,808,50,Low
+2023-03-12,17:00,Sunday,A064,Meeting Room,25,None,89,Collaborative,23.3,Bright,Loud,Occupied,Projector,809,52,Medium
+2023-03-12,18:00,Sunday,A001,Open Space,36,None,58,Quiet,20.1,Bright,Moderate,Available,Whiteboard,641,57,Medium
+2023-03-12,19:00,Sunday,A062,Meeting Room,20,Client Visit,12,Quiet,25.3,Bright,Quiet,Under Maintenance,None,578,55,Medium
+2023-03-12,20:00,Sunday,A067,Private Office,48,Team Meeting,38,Collaborative,21.5,Medium,Quiet,Occupied,Projector,119,50,High
+2023-03-12,21:00,Sunday,A091,Private Office,30,None,27,Quiet,19,Medium,Quiet,Under Maintenance,None,659,58,Medium
+2023-03-12,22:00,Sunday,A093,Meeting Room,24,Client Visit,88,Collaborative,23.9,Medium,Moderate,Occupied,Computer,229,47,Medium
+2023-03-12,23:00,Sunday,A070,Meeting Room,22,Workshop,60,Flexible,23.1,Bright,Quiet,Available,None,392,50,Medium
+2023-03-13,00:00,Monday,A058,Private Office,23,Client Visit,15,Quiet,20.5,Medium,Quiet,Occupied,None,996,65,Medium
+2023-03-13,01:00,Monday,A003,Meeting Room,37,Team Meeting,1,Quiet,23,Dim,Loud,Available,Computer,231,53,High
+2023-03-13,02:00,Monday,A047,Meeting Room,27,Workshop,81,Collaborative,19.8,Medium,Moderate,Under Maintenance,Computer,455,53,Medium
+2023-03-13,03:00,Monday,A075,Meeting Room,20,Team Meeting,16,Flexible,21.6,Medium,Loud,Available,None,153,50,Medium
+2023-03-13,04:00,Monday,A051,Meeting Room,42,Team Meeting,29,Collaborative,25.2,Medium,Moderate,Under Maintenance,Projector,989,54,High
+2023-03-13,05:00,Monday,A092,Open Space,17,None,12,Flexible,19.1,Medium,Moderate,Available,None,892,55,Low
+2023-03-13,06:00,Monday,A017,Private Office,35,Client Visit,95,Collaborative,21.1,Bright,Moderate,Under Maintenance,Whiteboard,486,61,Medium
+2023-03-13,07:00,Monday,A061,Meeting Room,34,Client Visit,92,Flexible,24.6,Medium,Moderate,Under Maintenance,Whiteboard,364,59,Medium
+2023-03-13,08:00,Monday,A096,Meeting Room,44,Team Meeting,93,Quiet,25.8,Bright,Loud,Under Maintenance,Whiteboard,314,47,High
+2023-03-13,09:00,Monday,A024,Private Office,8,None,81,Collaborative,21.6,Dim,Loud,Occupied,Whiteboard,559,46,Low
+2023-03-13,10:00,Monday,A052,Open Space,37,Workshop,12,Collaborative,22.1,Bright,Moderate,Occupied,Whiteboard,557,58,Medium
+2023-03-13,11:00,Monday,A080,Meeting Room,29,Client Visit,42,Collaborative,22.6,Bright,Loud,Available,Computer,901,58,Medium
+2023-03-13,12:00,Monday,A001,Meeting Room,43,Team Meeting,84,Quiet,25.5,Medium,Quiet,Occupied,Whiteboard,142,57,High
+2023-03-13,13:00,Monday,A067,Open Space,33,None,93,Quiet,24.9,Bright,Moderate,Occupied,Projector,685,50,Medium
+2023-03-13,14:00,Monday,A009,Private Office,31,Client Visit,20,Collaborative,19.4,Medium,Quiet,Occupied,Whiteboard,961,47,Medium
+2023-03-13,15:00,Monday,A065,Meeting Room,2,Team Meeting,54,Collaborative,21.5,Bright,Loud,Available,None,377,68,Low
+2023-03-13,16:00,Monday,A029,Meeting Room,2,None,80,Collaborative,21.7,Medium,Moderate,Available,Computer,937,44,Low
+2023-03-13,17:00,Monday,A032,Private Office,27,Workshop,39,Quiet,24.3,Medium,Moderate,Available,Projector,853,60,Medium
+2023-03-13,18:00,Monday,A088,Open Space,43,None,82,Flexible,22.8,Medium,Loud,Available,Projector,229,62,High
+2023-03-13,19:00,Monday,A063,Open Space,14,Team Meeting,14,Quiet,23.2,Dim,Quiet,Under Maintenance,Whiteboard,449,60,Low
+2023-03-13,20:00,Monday,A082,Open Space,40,Workshop,72,Quiet,26,Bright,Loud,Available,None,805,56,High
+2023-03-13,21:00,Monday,A055,Private Office,22,Workshop,51,Collaborative,18.6,Bright,Quiet,Under Maintenance,Projector,643,54,Medium
+2023-03-13,22:00,Monday,A010,Private Office,39,Team Meeting,73,Quiet,19.8,Bright,Loud,Under Maintenance,Whiteboard,205,53,High
+2023-03-13,23:00,Monday,A096,Meeting Room,10,Team Meeting,94,Collaborative,21.3,Dim,Moderate,Under Maintenance,Projector,815,47,Low
+2023-03-14,00:00,Tuesday,A095,Private Office,47,Client Visit,52,Quiet,20.8,Medium,Moderate,Occupied,Computer,100,47,High
+2023-03-14,01:00,Tuesday,A011,Meeting Room,31,Team Meeting,86,Collaborative,18.2,Bright,Quiet,Occupied,Projector,856,57,Medium
+2023-03-14,02:00,Tuesday,A049,Private Office,35,Workshop,51,Flexible,18.7,Dim,Moderate,Under Maintenance,Projector,683,55,Medium
+2023-03-14,03:00,Tuesday,A023,Open Space,32,Team Meeting,29,Quiet,23.4,Bright,Loud,Available,None,531,45,High
+2023-03-14,04:00,Tuesday,A050,Meeting Room,23,Team Meeting,32,Quiet,25,Bright,Loud,Under Maintenance,Whiteboard,405,61,Medium
+2023-03-14,05:00,Tuesday,A014,Private Office,38,None,56,Flexible,22.1,Medium,Loud,Under Maintenance,Computer,626,51,High
+2023-03-14,06:00,Tuesday,A047,Open Space,33,Client Visit,51,Flexible,22.3,Dim,Moderate,Occupied,Computer,152,53,Medium
+2023-03-14,07:00,Tuesday,A095,Open Space,27,Client Visit,8,Flexible,20,Bright,Moderate,Available,Projector,619,47,Medium
+2023-03-14,08:00,Tuesday,A071,Meeting Room,36,Client Visit,53,Collaborative,24.1,Dim,Quiet,Occupied,Computer,429,55,Medium
+2023-03-14,09:00,Tuesday,A001,Private Office,6,Client Visit,0,Flexible,24,Dim,Moderate,Available,Whiteboard,657,57,Low
+2023-03-14,10:00,Tuesday,A064,Open Space,3,Team Meeting,43,Flexible,22.7,Medium,Moderate,Available,Computer,424,52,Low
+2023-03-14,11:00,Tuesday,A057,Open Space,36,Client Visit,98,Collaborative,19.7,Bright,Moderate,Occupied,Whiteboard,213,66,Medium
+2023-03-14,12:00,Tuesday,A012,Open Space,0,Team Meeting,74,Quiet,18.8,Dim,Quiet,Occupied,Whiteboard,246,48,Low
+2023-03-14,13:00,Tuesday,A056,Meeting Room,0,Client Visit,97,Quiet,18.5,Bright,Moderate,Under Maintenance,Whiteboard,265,61,Low
+2023-03-14,14:00,Tuesday,A090,Meeting Room,46,None,79,Collaborative,22.7,Medium,Quiet,Under Maintenance,Computer,478,54,High
+2023-03-14,15:00,Tuesday,A057,Private Office,19,None,8,Flexible,24.6,Medium,Loud,Available,Whiteboard,238,66,Low
+2023-03-14,16:00,Tuesday,A088,Private Office,18,None,31,Collaborative,24.9,Bright,Loud,Under Maintenance,None,728,62,Low
+2023-03-14,17:00,Tuesday,A051,Open Space,28,Client Visit,14,Quiet,21.7,Dim,Loud,Available,Computer,398,54,Medium
+2023-03-14,18:00,Tuesday,A022,Open Space,9,Workshop,11,Flexible,24.3,Dim,Quiet,Available,Whiteboard,375,65,Low
+2023-03-14,19:00,Tuesday,A024,Private Office,17,Client Visit,96,Quiet,25.6,Dim,Quiet,Under Maintenance,Whiteboard,888,46,Medium
+2023-03-14,20:00,Tuesday,A009,Open Space,27,Workshop,77,Flexible,20.2,Dim,Loud,Available,None,949,47,Medium
+2023-03-14,21:00,Tuesday,A086,Private Office,34,Team Meeting,56,Flexible,21.2,Medium,Moderate,Under Maintenance,None,924,57,Medium
+2023-03-14,22:00,Tuesday,A015,Meeting Room,42,Workshop,7,Flexible,25.5,Bright,Moderate,Under Maintenance,Projector,277,68,Medium
+2023-03-14,23:00,Tuesday,A062,Open Space,46,Client Visit,71,Quiet,20.7,Dim,Loud,Available,Projector,941,55,High
+2023-03-15,00:00,Wednesday,A011,Open Space,30,Team Meeting,26,Collaborative,25.3,Medium,Moderate,Occupied,Projector,453,57,Medium
+2023-03-15,01:00,Wednesday,A032,Meeting Room,26,Workshop,61,Collaborative,25.8,Bright,Moderate,Occupied,Whiteboard,253,60,Medium
+2023-03-15,02:00,Wednesday,A048,Open Space,10,Workshop,11,Collaborative,23.3,Medium,Quiet,Under Maintenance,Whiteboard,300,53,Low
+2023-03-15,03:00,Wednesday,A004,Open Space,48,Workshop,64,Quiet,24.5,Bright,Quiet,Available,None,977,39,High
+2023-03-15,04:00,Wednesday,A077,Meeting Room,48,Workshop,41,Flexible,24,Medium,Quiet,Under Maintenance,Whiteboard,214,61,High
+2023-03-15,05:00,Wednesday,A095,Open Space,37,Client Visit,61,Flexible,23.6,Bright,Moderate,Available,None,770,47,High
+2023-03-15,06:00,Wednesday,A094,Open Space,4,Workshop,10,Flexible,20.5,Dim,Loud,Available,Whiteboard,653,49,Low
+2023-03-15,07:00,Wednesday,A097,Meeting Room,7,Team Meeting,42,Quiet,18.5,Medium,Quiet,Under Maintenance,None,858,50,Low
+2023-03-15,08:00,Wednesday,A062,Open Space,33,Team Meeting,94,Flexible,20.7,Dim,Loud,Occupied,None,167,55,Medium
+2023-03-15,09:00,Wednesday,A060,Open Space,47,None,16,Collaborative,23.3,Dim,Quiet,Under Maintenance,Projector,544,49,High
+2023-03-15,10:00,Wednesday,A063,Private Office,11,None,96,Collaborative,18.8,Medium,Moderate,Under Maintenance,Computer,544,60,Low
+2023-03-15,11:00,Wednesday,A007,Meeting Room,37,None,31,Collaborative,18.1,Medium,Loud,Occupied,Computer,425,52,High
+2023-03-15,12:00,Wednesday,A054,Meeting Room,0,Workshop,92,Flexible,19.1,Dim,Loud,Under Maintenance,Whiteboard,945,59,Low
+2023-03-15,13:00,Wednesday,A042,Open Space,30,Team Meeting,84,Collaborative,23.7,Dim,Loud,Under Maintenance,Whiteboard,807,65,Medium
+2023-03-15,14:00,Wednesday,A010,Meeting Room,3,Team Meeting,84,Flexible,25.8,Dim,Quiet,Under Maintenance,None,701,53,Low
+2023-03-15,15:00,Wednesday,A040,Private Office,48,None,39,Quiet,25.9,Medium,Loud,Occupied,Projector,722,59,High
+2023-03-15,16:00,Wednesday,A054,Private Office,44,None,22,Quiet,22,Dim,Moderate,Occupied,Whiteboard,979,59,High
+2023-03-15,17:00,Wednesday,A099,Private Office,49,Workshop,55,Collaborative,25,Bright,Moderate,Under Maintenance,None,458,54,High
+2023-03-15,18:00,Wednesday,A082,Meeting Room,4,Client Visit,5,Quiet,23.9,Medium,Moderate,Available,Computer,244,56,Low
+2023-03-15,19:00,Wednesday,A063,Meeting Room,29,None,85,Collaborative,22,Dim,Quiet,Under Maintenance,Whiteboard,374,60,Medium
+2023-03-15,20:00,Wednesday,A017,Meeting Room,23,Workshop,49,Collaborative,22.6,Bright,Loud,Occupied,Projector,608,61,Medium
+2023-03-15,21:00,Wednesday,A088,Meeting Room,2,None,36,Quiet,19.1,Bright,Loud,Available,None,278,62,Low
+2023-03-15,22:00,Wednesday,A037,Private Office,10,Workshop,63,Flexible,25.5,Bright,Quiet,Available,None,852,52,Low
+2023-03-15,23:00,Wednesday,A085,Private Office,44,None,53,Flexible,20.8,Bright,Loud,Available,Computer,937,46,High
+2023-03-16,00:00,Thursday,A057,Open Space,3,Workshop,71,Quiet,21.6,Dim,Loud,Available,Computer,930,66,Low
+2023-03-16,01:00,Thursday,A071,Private Office,25,Workshop,48,Quiet,23.4,Dim,Moderate,Occupied,Whiteboard,576,55,Medium
+2023-03-16,02:00,Thursday,A019,Meeting Room,26,Client Visit,98,Flexible,20.7,Bright,Quiet,Under Maintenance,Computer,942,64,Medium
+2023-03-16,03:00,Thursday,A099,Meeting Room,45,None,10,Quiet,20,Bright,Quiet,Occupied,Whiteboard,513,54,High
+2023-03-16,04:00,Thursday,A041,Meeting Room,42,None,87,Quiet,23,Dim,Quiet,Available,None,252,55,High
+2023-03-16,05:00,Thursday,A074,Meeting Room,26,None,48,Collaborative,18.2,Dim,Moderate,Available,None,203,57,Medium
+2023-03-16,06:00,Thursday,A053,Private Office,41,Workshop,20,Quiet,23.8,Dim,Moderate,Available,Computer,174,44,High
+2023-03-16,07:00,Thursday,A012,Private Office,49,Client Visit,65,Flexible,22.1,Bright,Quiet,Available,Whiteboard,227,48,High
+2023-03-16,08:00,Thursday,A026,Open Space,5,Workshop,62,Flexible,22.8,Medium,Quiet,Under Maintenance,Projector,810,58,Low
+2023-03-16,09:00,Thursday,A033,Meeting Room,14,Workshop,82,Quiet,23.1,Medium,Loud,Under Maintenance,Whiteboard,765,58,Low
+2023-03-16,10:00,Thursday,A024,Private Office,29,Team Meeting,27,Quiet,22.2,Medium,Quiet,Under Maintenance,None,667,46,Medium
+2023-03-16,11:00,Thursday,A004,Meeting Room,41,Team Meeting,16,Collaborative,22.7,Dim,Moderate,Available,Projector,889,39,High
+2023-03-16,12:00,Thursday,A011,Meeting Room,36,Client Visit,5,Collaborative,23.5,Medium,Loud,Under Maintenance,Projector,444,57,Medium
+2023-03-16,13:00,Thursday,A001,Private Office,36,Client Visit,18,Collaborative,24,Dim,Loud,Available,Computer,630,57,Medium
+2023-03-16,14:00,Thursday,A033,Open Space,41,Workshop,55,Quiet,23.8,Medium,Moderate,Under Maintenance,Computer,258,58,High
+2023-03-16,15:00,Thursday,A054,Open Space,36,Client Visit,27,Quiet,25,Bright,Moderate,Occupied,Projector,637,59,Medium
+2023-03-16,16:00,Thursday,A093,Private Office,34,Workshop,65,Flexible,19.5,Bright,Loud,Available,Whiteboard,525,47,High
+2023-03-16,17:00,Thursday,A033,Meeting Room,22,Team Meeting,37,Collaborative,21.2,Bright,Loud,Available,Whiteboard,780,58,Medium
+2023-03-16,18:00,Thursday,A005,Private Office,5,Client Visit,36,Flexible,25.6,Medium,Moderate,Occupied,Whiteboard,122,61,Low
+2023-03-16,19:00,Thursday,A058,Open Space,3,Client Visit,67,Collaborative,21.2,Medium,Loud,Available,Computer,146,65,Low
+2023-03-16,20:00,Thursday,A056,Meeting Room,17,None,85,Collaborative,19,Medium,Quiet,Available,Computer,624,61,Low
+2023-03-16,21:00,Thursday,A061,Private Office,8,Workshop,89,Quiet,22.2,Medium,Moderate,Occupied,Whiteboard,828,59,Low
+2023-03-16,22:00,Thursday,A062,Private Office,48,None,48,Quiet,18.9,Dim,Quiet,Occupied,Whiteboard,933,55,High
+2023-03-16,23:00,Thursday,A063,Meeting Room,28,Workshop,42,Flexible,19.6,Medium,Quiet,Occupied,Computer,805,60,Medium
+2023-03-17,00:00,Friday,A064,Meeting Room,12,Client Visit,35,Collaborative,26,Dim,Moderate,Under Maintenance,Computer,243,52,Low
+2023-03-17,01:00,Friday,A046,Open Space,46,None,57,Flexible,22.3,Bright,Loud,Occupied,Whiteboard,684,62,High
+2023-03-17,02:00,Friday,A049,Open Space,16,Team Meeting,12,Quiet,20.3,Bright,Loud,Occupied,Projector,767,55,Low
+2023-03-17,03:00,Friday,A024,Open Space,44,None,51,Flexible,26,Bright,Loud,Available,Computer,688,46,High
+2023-03-17,04:00,Friday,A025,Meeting Room,31,Team Meeting,57,Quiet,25.7,Dim,Loud,Under Maintenance,Computer,518,57,Medium
+2023-03-17,05:00,Friday,A045,Private Office,47,Workshop,31,Collaborative,21.5,Bright,Moderate,Under Maintenance,Whiteboard,780,56,High
+2023-03-17,06:00,Friday,A086,Meeting Room,21,Team Meeting,80,Quiet,20.1,Medium,Moderate,Available,Whiteboard,898,57,Medium
+2023-03-17,07:00,Friday,A025,Open Space,3,Client Visit,99,Collaborative,24.7,Dim,Loud,Available,None,184,57,Low
+2023-03-17,08:00,Friday,A094,Open Space,4,Client Visit,59,Quiet,23.7,Dim,Loud,Under Maintenance,Projector,515,49,Low
+2023-03-17,09:00,Friday,A013,Private Office,36,Workshop,82,Flexible,23.5,Bright,Moderate,Under Maintenance,None,793,47,High
+2023-03-17,10:00,Friday,A003,Private Office,40,Workshop,57,Collaborative,25.1,Bright,Loud,Available,Computer,581,53,High
+2023-03-17,11:00,Friday,A072,Meeting Room,48,Team Meeting,98,Collaborative,23.5,Medium,Loud,Under Maintenance,Projector,555,49,High
+2023-03-17,12:00,Friday,A037,Open Space,12,None,55,Quiet,20.3,Bright,Loud,Under Maintenance,Projector,926,52,Low
+2023-03-17,13:00,Friday,A094,Open Space,33,Workshop,27,Collaborative,23.6,Dim,Moderate,Occupied,Projector,396,49,High
+2023-03-17,14:00,Friday,A050,Private Office,44,Team Meeting,0,Collaborative,20.4,Dim,Quiet,Occupied,Projector,211,61,High
+2023-03-17,15:00,Friday,A075,Private Office,21,Workshop,41,Quiet,24.1,Bright,Quiet,Occupied,None,329,50,Medium
+2023-03-17,16:00,Friday,A028,Meeting Room,22,Team Meeting,81,Flexible,23,Medium,Loud,Occupied,None,195,56,Medium
+2023-03-17,17:00,Friday,A018,Private Office,2,Team Meeting,47,Flexible,18.6,Bright,Loud,Under Maintenance,Whiteboard,779,56,Low
+2023-03-17,18:00,Friday,A024,Private Office,41,None,39,Flexible,22.1,Dim,Loud,Occupied,Projector,477,46,High
+2023-03-17,19:00,Friday,A086,Meeting Room,33,Team Meeting,96,Flexible,20.7,Bright,Loud,Available,Computer,255,57,Medium
+2023-03-17,20:00,Friday,A019,Private Office,31,Team Meeting,62,Flexible,20.6,Dim,Quiet,Occupied,Computer,520,64,Medium
+2023-03-17,21:00,Friday,A008,Private Office,44,Team Meeting,75,Collaborative,22.8,Medium,Quiet,Under Maintenance,Projector,204,58,High
+2023-03-17,22:00,Friday,A009,Meeting Room,48,Workshop,71,Collaborative,20.6,Bright,Loud,Occupied,Whiteboard,804,47,High
+2023-03-17,23:00,Friday,A076,Meeting Room,20,Client Visit,87,Flexible,24.2,Medium,Loud,Occupied,Projector,429,56,Medium
+2023-03-18,00:00,Saturday,A045,Private Office,45,None,79,Collaborative,18.6,Bright,Quiet,Occupied,Projector,538,56,High
+2023-03-18,01:00,Saturday,A008,Open Space,43,Team Meeting,3,Quiet,23.3,Medium,Quiet,Occupied,Whiteboard,231,58,High
+2023-03-18,02:00,Saturday,A025,Meeting Room,20,Workshop,37,Quiet,24.5,Dim,Quiet,Under Maintenance,Computer,966,57,Medium
+2023-03-18,03:00,Saturday,A041,Private Office,43,Workshop,26,Flexible,23.4,Bright,Loud,Under Maintenance,Whiteboard,481,55,High
+2023-03-18,04:00,Saturday,A094,Open Space,10,Client Visit,8,Quiet,22,Medium,Loud,Under Maintenance,Projector,237,49,Low
+2023-03-18,05:00,Saturday,A049,Meeting Room,38,Workshop,15,Quiet,25.6,Medium,Moderate,Under Maintenance,Projector,942,55,High
+2023-03-18,06:00,Saturday,A003,Open Space,3,None,55,Flexible,20.4,Medium,Moderate,Under Maintenance,Computer,369,53,Low
+2023-03-18,07:00,Saturday,A017,Open Space,0,Team Meeting,75,Quiet,18.2,Bright,Loud,Available,Projector,649,61,Low
+2023-03-18,08:00,Saturday,A012,Meeting Room,27,Client Visit,30,Collaborative,21.5,Bright,Moderate,Under Maintenance,Computer,495,48,Medium
+2023-03-18,09:00,Saturday,A052,Open Space,23,Client Visit,87,Flexible,18.3,Medium,Moderate,Occupied,Projector,656,58,Medium
+2023-03-18,10:00,Saturday,A018,Private Office,34,Workshop,13,Flexible,25.6,Dim,Loud,Occupied,Computer,563,56,Medium
+2023-03-18,11:00,Saturday,A092,Meeting Room,12,Team Meeting,24,Quiet,19.7,Medium,Loud,Under Maintenance,None,774,55,Low
+2023-03-18,12:00,Saturday,A013,Private Office,46,Team Meeting,33,Flexible,24.3,Medium,Loud,Under Maintenance,Projector,549,47,High
+2023-03-18,13:00,Saturday,A089,Private Office,33,None,66,Flexible,24.2,Dim,Quiet,Under Maintenance,Projector,430,57,Medium
+2023-03-18,14:00,Saturday,A069,Open Space,10,Client Visit,23,Flexible,19.7,Dim,Quiet,Available,None,352,61,Low
+2023-03-18,15:00,Saturday,A002,Meeting Room,35,Client Visit,72,Collaborative,23,Dim,Moderate,Available,None,780,50,High
+2023-03-18,16:00,Saturday,A049,Open Space,16,None,25,Collaborative,18.4,Dim,Quiet,Under Maintenance,None,384,55,Low
+2023-03-18,17:00,Saturday,A043,Private Office,34,Team Meeting,19,Collaborative,21.9,Bright,Moderate,Available,Projector,373,39,High
+2023-03-18,18:00,Saturday,A008,Meeting Room,17,Team Meeting,63,Flexible,18.1,Medium,Loud,Occupied,Whiteboard,119,58,Low
+2023-03-18,19:00,Saturday,A094,Open Space,39,Workshop,9,Flexible,25.4,Medium,Quiet,Occupied,Computer,338,49,High
+2023-03-18,20:00,Saturday,A024,Meeting Room,21,Workshop,82,Quiet,25.8,Medium,Quiet,Occupied,None,369,46,Medium
+2023-03-18,21:00,Saturday,A095,Meeting Room,23,Workshop,66,Flexible,19.8,Medium,Loud,Under Maintenance,Whiteboard,517,47,Medium
+2023-03-18,22:00,Saturday,A033,Meeting Room,18,None,23,Flexible,19.7,Dim,Quiet,Under Maintenance,Computer,409,58,Low
+2023-03-18,23:00,Saturday,A016,Private Office,36,Client Visit,4,Collaborative,24,Medium,Moderate,Occupied,Computer,130,58,Medium
+2023-03-19,00:00,Sunday,A099,Meeting Room,38,Workshop,66,Flexible,20,Bright,Loud,Available,Whiteboard,925,54,High
+2023-03-19,01:00,Sunday,A031,Meeting Room,20,Workshop,57,Collaborative,25.2,Bright,Loud,Available,None,203,48,Medium
+2023-03-19,02:00,Sunday,A033,Meeting Room,7,Workshop,26,Flexible,22.6,Dim,Quiet,Under Maintenance,Computer,781,58,Low
+2023-03-19,03:00,Sunday,A075,Meeting Room,27,Client Visit,79,Flexible,20.8,Dim,Quiet,Under Maintenance,Computer,285,50,Medium
+2023-03-19,04:00,Sunday,A001,Open Space,4,Workshop,14,Flexible,24.7,Medium,Moderate,Occupied,Computer,227,57,Low
+2023-03-19,05:00,Sunday,A084,Private Office,16,Workshop,34,Flexible,21.9,Bright,Quiet,Available,None,309,55,Low
+2023-03-19,06:00,Sunday,A093,Open Space,36,None,75,Collaborative,25.3,Medium,Loud,Available,Projector,513,47,High
+2023-03-19,07:00,Sunday,A050,Open Space,35,Workshop,52,Collaborative,25.4,Bright,Quiet,Under Maintenance,None,380,61,Medium
+2023-03-19,08:00,Sunday,A020,Private Office,18,Team Meeting,43,Flexible,19.3,Medium,Moderate,Under Maintenance,Whiteboard,352,63,Low
+2023-03-19,09:00,Sunday,A072,Open Space,26,Client Visit,25,Quiet,18,Bright,Loud,Available,Projector,118,49,Medium
+2023-03-19,10:00,Sunday,A051,Meeting Room,33,Workshop,46,Collaborative,25.9,Dim,Moderate,Available,Computer,811,54,Medium
+2023-03-19,11:00,Sunday,A051,Meeting Room,10,Workshop,33,Flexible,25.2,Dim,Moderate,Occupied,None,831,54,Low
+2023-03-19,12:00,Sunday,A062,Open Space,44,None,86,Collaborative,18.4,Bright,Loud,Under Maintenance,Projector,235,55,High
+2023-03-19,13:00,Sunday,A029,Private Office,46,Workshop,94,Quiet,24.7,Bright,Loud,Occupied,None,322,44,High
+2023-03-19,14:00,Sunday,A057,Private Office,11,None,49,Flexible,21.7,Dim,Loud,Occupied,Computer,102,66,Low
+2023-03-19,15:00,Sunday,A093,Meeting Room,20,None,83,Collaborative,20.1,Dim,Quiet,Available,Computer,335,47,Medium
+2023-03-19,16:00,Sunday,A071,Open Space,10,Client Visit,11,Collaborative,25,Dim,Quiet,Under Maintenance,Whiteboard,953,55,Low
+2023-03-19,17:00,Sunday,A028,Open Space,38,Client Visit,86,Collaborative,19.6,Bright,Quiet,Under Maintenance,Whiteboard,564,56,High
+2023-03-19,18:00,Sunday,A092,Private Office,27,None,3,Collaborative,25.6,Bright,Loud,Under Maintenance,Whiteboard,327,55,Medium
+2023-03-19,19:00,Sunday,A004,Meeting Room,4,Workshop,86,Quiet,19.6,Dim,Moderate,Available,Projector,753,39,Low
+2023-03-19,20:00,Sunday,A062,Open Space,16,Workshop,47,Flexible,22.9,Medium,Moderate,Available,Projector,598,55,Low
+2023-03-19,21:00,Sunday,A094,Open Space,19,None,54,Quiet,19.8,Medium,Moderate,Available,Computer,620,49,Medium
+2023-03-19,22:00,Sunday,A028,Open Space,40,None,0,Collaborative,22.4,Dim,Quiet,Under Maintenance,Computer,801,56,High
+2023-03-19,23:00,Sunday,A038,Open Space,45,Team Meeting,88,Quiet,23.5,Dim,Moderate,Under Maintenance,None,961,49,High
+2023-03-20,00:00,Monday,A011,Private Office,11,Client Visit,65,Flexible,19.5,Bright,Loud,Available,None,776,57,Low
+2023-03-20,01:00,Monday,A074,Meeting Room,5,Workshop,29,Quiet,22.2,Bright,Quiet,Under Maintenance,Projector,238,57,Low
+2023-03-20,02:00,Monday,A002,Open Space,16,Client Visit,2,Flexible,21.8,Dim,Quiet,Occupied,Projector,375,50,Low
+2023-03-20,03:00,Monday,A067,Private Office,18,Team Meeting,20,Quiet,18.6,Bright,Loud,Occupied,Whiteboard,390,50,Medium
+2023-03-20,04:00,Monday,A049,Meeting Room,25,Client Visit,88,Collaborative,24.5,Medium,Loud,Under Maintenance,Projector,152,55,Medium
+2023-03-20,05:00,Monday,A086,Open Space,47,Workshop,83,Flexible,20.7,Medium,Loud,Occupied,Projector,786,57,High
+2023-03-20,06:00,Monday,A052,Meeting Room,43,None,48,Quiet,22.6,Medium,Quiet,Under Maintenance,Computer,209,58,High
+2023-03-20,07:00,Monday,A029,Open Space,43,Team Meeting,85,Flexible,22.1,Medium,Moderate,Under Maintenance,Whiteboard,814,44,High
+2023-03-20,08:00,Monday,A046,Private Office,31,Team Meeting,84,Flexible,22.1,Dim,Quiet,Under Maintenance,Projector,747,62,Medium
+2023-03-20,09:00,Monday,A091,Open Space,5,Team Meeting,61,Flexible,18.9,Dim,Quiet,Under Maintenance,Whiteboard,103,58,Low
+2023-03-20,10:00,Monday,A051,Private Office,35,Client Visit,96,Quiet,21.4,Medium,Quiet,Occupied,Computer,766,54,Medium
+2023-03-20,11:00,Monday,A099,Open Space,37,Team Meeting,37,Flexible,21.6,Bright,Quiet,Under Maintenance,None,783,54,High
+2023-03-20,12:00,Monday,A066,Meeting Room,10,Client Visit,14,Collaborative,23.9,Bright,Loud,Under Maintenance,Whiteboard,969,48,Low
+2023-03-20,13:00,Monday,A024,Open Space,32,None,51,Flexible,24.7,Bright,Quiet,Available,Projector,146,46,High
+2023-03-20,14:00,Monday,A096,Meeting Room,23,Client Visit,78,Quiet,22.4,Bright,Loud,Under Maintenance,Projector,193,47,Medium
+2023-03-20,15:00,Monday,A099,Private Office,22,Team Meeting,45,Collaborative,18.7,Bright,Loud,Occupied,Projector,659,54,Medium
+2023-03-20,16:00,Monday,A084,Open Space,14,Client Visit,24,Quiet,19.9,Medium,Quiet,Available,Whiteboard,851,55,Low
+2023-03-20,17:00,Monday,A027,Meeting Room,26,Team Meeting,20,Collaborative,19.3,Medium,Moderate,Occupied,Projector,958,54,Medium
+2023-03-20,18:00,Monday,A059,Meeting Room,10,Team Meeting,87,Quiet,19,Medium,Moderate,Under Maintenance,Computer,312,52,Low
+2023-03-20,19:00,Monday,A038,Open Space,49,Team Meeting,4,Collaborative,20.9,Dim,Moderate,Occupied,Computer,535,49,High
+2023-03-20,20:00,Monday,A003,Open Space,16,Workshop,69,Quiet,19.8,Bright,Quiet,Under Maintenance,Whiteboard,951,53,Low
+2023-03-20,21:00,Monday,A015,Meeting Room,13,Team Meeting,46,Quiet,19.7,Bright,Quiet,Occupied,None,607,68,Low
+2023-03-20,22:00,Monday,A040,Private Office,26,None,86,Collaborative,18.4,Bright,Quiet,Occupied,Computer,935,59,Medium
+2023-03-20,23:00,Monday,A060,Private Office,17,Team Meeting,67,Quiet,18.1,Dim,Moderate,Available,Whiteboard,750,49,Medium
+2023-03-21,00:00,Tuesday,A007,Private Office,27,Team Meeting,90,Quiet,18.8,Bright,Quiet,Occupied,Whiteboard,304,52,Medium
+2023-03-21,01:00,Tuesday,A047,Meeting Room,46,Workshop,17,Quiet,19.4,Dim,Moderate,Occupied,Whiteboard,480,53,High
+2023-03-21,02:00,Tuesday,A022,Meeting Room,46,Team Meeting,20,Flexible,21.4,Dim,Loud,Occupied,Whiteboard,172,65,High
+2023-03-21,03:00,Tuesday,A008,Open Space,3,Client Visit,91,Quiet,22.1,Bright,Loud,Under Maintenance,Projector,615,58,Low
+2023-03-21,04:00,Tuesday,A051,Meeting Room,6,Client Visit,98,Quiet,19.1,Medium,Loud,Occupied,Projector,175,54,Low
+2023-03-21,05:00,Tuesday,A009,Private Office,44,Client Visit,85,Quiet,21.4,Bright,Loud,Occupied,Computer,940,47,High
+2023-03-21,06:00,Tuesday,A043,Open Space,34,Team Meeting,22,Flexible,20.7,Dim,Quiet,Available,None,176,39,High
+2023-03-21,07:00,Tuesday,A097,Private Office,47,Team Meeting,63,Quiet,19.5,Bright,Quiet,Available,Whiteboard,915,50,High
+2023-03-21,08:00,Tuesday,A076,Meeting Room,8,Workshop,66,Flexible,18.1,Dim,Quiet,Available,Computer,867,56,Low
+2023-03-21,09:00,Tuesday,A087,Open Space,7,Team Meeting,39,Flexible,21.7,Bright,Moderate,Occupied,Computer,509,65,Low
+2023-03-21,10:00,Tuesday,A062,Open Space,44,None,9,Flexible,23.5,Dim,Quiet,Occupied,None,713,55,High
+2023-03-21,11:00,Tuesday,A051,Open Space,16,Team Meeting,88,Quiet,19.8,Medium,Moderate,Available,Whiteboard,205,54,Low
+2023-03-21,12:00,Tuesday,A059,Private Office,16,Client Visit,51,Flexible,19.1,Dim,Quiet,Under Maintenance,Computer,944,52,Low
+2023-03-21,13:00,Tuesday,A097,Private Office,48,None,71,Quiet,25.1,Bright,Moderate,Under Maintenance,Whiteboard,650,50,High
+2023-03-21,14:00,Tuesday,A074,Open Space,32,Client Visit,74,Quiet,20.2,Dim,Quiet,Occupied,Projector,575,57,Medium
+2023-03-21,15:00,Tuesday,A066,Open Space,31,Team Meeting,60,Flexible,19.8,Medium,Moderate,Occupied,Computer,925,48,Medium
+2023-03-21,16:00,Tuesday,A070,Private Office,7,None,63,Quiet,24.9,Dim,Loud,Under Maintenance,Computer,374,50,Low
+2023-03-21,17:00,Tuesday,A059,Meeting Room,18,Client Visit,4,Flexible,24.5,Dim,Quiet,Occupied,None,187,52,Medium
+2023-03-21,18:00,Tuesday,A035,Private Office,37,None,52,Collaborative,21.6,Bright,Loud,Available,None,822,46,High
+2023-03-21,19:00,Tuesday,A018,Meeting Room,2,None,54,Collaborative,21.9,Dim,Loud,Occupied,Projector,980,56,Low
+2023-03-21,20:00,Tuesday,A027,Meeting Room,4,Team Meeting,36,Flexible,19.7,Bright,Loud,Under Maintenance,Projector,176,54,Low
+2023-03-21,21:00,Tuesday,A094,Meeting Room,12,None,55,Quiet,18.6,Bright,Quiet,Occupied,Computer,176,49,Low
+2023-03-21,22:00,Tuesday,A090,Private Office,46,Workshop,58,Flexible,22.6,Medium,Moderate,Available,Computer,541,54,High
+2023-03-21,23:00,Tuesday,A052,Meeting Room,45,Team Meeting,92,Collaborative,18.8,Medium,Quiet,Occupied,Whiteboard,639,58,High
+2023-03-22,00:00,Wednesday,A071,Meeting Room,30,None,68,Quiet,21.6,Dim,Loud,Occupied,Projector,344,55,Medium
+2023-03-22,01:00,Wednesday,A061,Open Space,15,Client Visit,72,Quiet,25.5,Dim,Loud,Under Maintenance,Whiteboard,677,59,Low
+2023-03-22,02:00,Wednesday,A095,Open Space,49,Team Meeting,58,Quiet,25.6,Bright,Moderate,Available,Whiteboard,877,47,High
+2023-03-22,03:00,Wednesday,A071,Meeting Room,31,Team Meeting,1,Collaborative,19.9,Dim,Quiet,Available,Whiteboard,481,55,Medium
+2023-03-22,04:00,Wednesday,A096,Private Office,21,Team Meeting,64,Quiet,23,Medium,Quiet,Occupied,None,816,47,Medium
+2023-03-22,05:00,Wednesday,A090,Private Office,28,Workshop,59,Collaborative,21.8,Bright,Quiet,Occupied,Whiteboard,669,54,Medium
+2023-03-22,06:00,Wednesday,A065,Private Office,21,Client Visit,50,Collaborative,25,Bright,Moderate,Available,None,812,68,Low
+2023-03-22,07:00,Wednesday,A032,Meeting Room,42,Client Visit,29,Collaborative,20.2,Medium,Loud,Under Maintenance,Whiteboard,836,60,High
+2023-03-22,08:00,Wednesday,A021,Open Space,2,None,10,Collaborative,18,Medium,Loud,Available,Whiteboard,241,60,Low
+2023-03-22,09:00,Wednesday,A017,Meeting Room,9,Workshop,91,Quiet,19.3,Dim,Loud,Under Maintenance,Computer,992,61,Low
+2023-03-22,10:00,Wednesday,A039,Open Space,41,None,75,Flexible,20.8,Bright,Moderate,Available,Computer,467,48,High
+2023-03-22,11:00,Wednesday,A098,Private Office,20,Workshop,38,Flexible,20.5,Bright,Loud,Occupied,Projector,183,51,Medium
+2023-03-22,12:00,Wednesday,A020,Meeting Room,15,Workshop,89,Quiet,24.3,Bright,Quiet,Under Maintenance,None,242,63,Low
+2023-03-22,13:00,Wednesday,A059,Meeting Room,11,Workshop,76,Flexible,23.4,Bright,Moderate,Available,Computer,451,52,Low
+2023-03-22,14:00,Wednesday,A037,Private Office,1,None,71,Flexible,20.4,Dim,Loud,Occupied,Computer,644,52,Low
+2023-03-22,15:00,Wednesday,A052,Private Office,40,Client Visit,62,Quiet,21.7,Bright,Quiet,Occupied,Whiteboard,251,58,High
+2023-03-22,16:00,Wednesday,A054,Private Office,23,Team Meeting,63,Flexible,18.8,Medium,Loud,Available,Computer,257,59,Medium
+2023-03-22,17:00,Wednesday,A001,Open Space,34,None,60,Collaborative,25.2,Medium,Loud,Occupied,Projector,545,57,Medium
+2023-03-22,18:00,Wednesday,A039,Meeting Room,29,Workshop,53,Collaborative,25.5,Bright,Quiet,Available,Whiteboard,752,48,Medium
+2023-03-22,19:00,Wednesday,A012,Private Office,29,Team Meeting,91,Quiet,25.8,Bright,Quiet,Available,Computer,862,48,Medium
+2023-03-22,20:00,Wednesday,A051,Private Office,46,Client Visit,93,Flexible,24.9,Medium,Moderate,Occupied,Whiteboard,402,54,High
+2023-03-22,21:00,Wednesday,A032,Open Space,34,None,72,Quiet,19.4,Dim,Loud,Available,Whiteboard,723,60,Medium
+2023-03-22,22:00,Wednesday,A098,Open Space,18,Team Meeting,94,Quiet,18.4,Dim,Moderate,Available,Whiteboard,755,51,Medium
+2023-03-22,23:00,Wednesday,A002,Meeting Room,49,Workshop,57,Quiet,22.6,Bright,Loud,Available,Whiteboard,549,50,High
+2023-03-23,00:00,Thursday,A039,Meeting Room,7,Team Meeting,84,Quiet,25.3,Medium,Moderate,Available,Projector,820,48,Low
+2023-03-23,01:00,Thursday,A030,Private Office,25,None,55,Collaborative,19.4,Bright,Loud,Available,Computer,323,50,Medium
+2023-03-23,02:00,Thursday,A047,Meeting Room,48,Client Visit,33,Quiet,18.1,Bright,Quiet,Under Maintenance,None,142,53,High
+2023-03-23,03:00,Thursday,A075,Meeting Room,39,None,30,Flexible,24.4,Bright,Loud,Available,Projector,363,50,High
+2023-03-23,04:00,Thursday,A060,Meeting Room,6,Client Visit,51,Quiet,18.6,Bright,Quiet,Occupied,Projector,855,49,Low
+2023-03-23,05:00,Thursday,A036,Private Office,29,None,88,Collaborative,21.3,Medium,Quiet,Occupied,Whiteboard,102,50,Medium
+2023-03-23,06:00,Thursday,A018,Private Office,6,Team Meeting,75,Collaborative,23.4,Medium,Quiet,Occupied,Projector,736,56,Low
+2023-03-23,07:00,Thursday,A050,Meeting Room,2,Client Visit,0,Quiet,19.9,Bright,Quiet,Occupied,Whiteboard,367,61,Low
+2023-03-23,08:00,Thursday,A062,Private Office,0,Workshop,54,Quiet,18.7,Bright,Moderate,Available,None,695,55,Low
+2023-03-23,09:00,Thursday,A025,Meeting Room,35,Team Meeting,21,Flexible,24.2,Dim,Moderate,Under Maintenance,Computer,115,57,Medium
+2023-03-23,10:00,Thursday,A057,Private Office,24,None,39,Collaborative,23,Bright,Quiet,Occupied,Projector,433,66,Medium
+2023-03-23,11:00,Thursday,A072,Private Office,36,Workshop,0,Quiet,25.9,Bright,Moderate,Under Maintenance,Whiteboard,563,49,High
+2023-03-23,12:00,Thursday,A007,Meeting Room,0,Client Visit,64,Collaborative,20.8,Bright,Moderate,Occupied,None,158,52,Low
+2023-03-23,13:00,Thursday,A028,Meeting Room,14,None,62,Collaborative,18.5,Dim,Loud,Under Maintenance,Computer,276,56,Low
+2023-03-23,14:00,Thursday,A008,Open Space,36,Team Meeting,53,Flexible,23.9,Bright,Quiet,Available,None,162,58,Medium
+2023-03-23,15:00,Thursday,A024,Meeting Room,12,Workshop,41,Quiet,22.2,Dim,Quiet,Under Maintenance,Projector,660,46,Low
+2023-03-23,16:00,Thursday,A020,Private Office,39,Workshop,20,Flexible,19.7,Medium,Quiet,Under Maintenance,Computer,406,63,Medium
+2023-03-23,17:00,Thursday,A026,Private Office,7,Team Meeting,78,Flexible,24.3,Medium,Moderate,Under Maintenance,Projector,345,58,Low
+2023-03-23,18:00,Thursday,A076,Meeting Room,4,Client Visit,80,Quiet,19.6,Bright,Moderate,Available,Whiteboard,388,56,Low
+2023-03-23,19:00,Thursday,A015,Open Space,8,Client Visit,21,Quiet,20.1,Bright,Moderate,Available,None,897,68,Low
+2023-03-23,20:00,Thursday,A093,Meeting Room,0,None,37,Flexible,18.7,Bright,Quiet,Occupied,None,431,47,Low
+2023-03-23,21:00,Thursday,A063,Meeting Room,35,Client Visit,98,Flexible,21.2,Bright,Quiet,Available,None,626,60,Medium
+2023-03-23,22:00,Thursday,A063,Private Office,34,Team Meeting,79,Flexible,21.4,Medium,Loud,Under Maintenance,None,949,60,Medium
+2023-03-23,23:00,Thursday,A029,Private Office,1,Team Meeting,7,Quiet,22.1,Dim,Loud,Available,Projector,354,44,Low
+2023-03-24,00:00,Friday,A037,Open Space,39,None,61,Flexible,23.7,Dim,Loud,Available,Whiteboard,703,52,High
+2023-03-24,01:00,Friday,A067,Open Space,22,Client Visit,46,Quiet,25.2,Medium,Moderate,Under Maintenance,Projector,609,50,Medium
+2023-03-24,02:00,Friday,A029,Open Space,8,None,16,Quiet,19.1,Bright,Loud,Under Maintenance,None,890,44,Low
+2023-03-24,03:00,Friday,A081,Meeting Room,33,Workshop,16,Collaborative,18.4,Bright,Loud,Under Maintenance,Projector,817,51,Medium
+2023-03-24,04:00,Friday,A084,Meeting Room,45,Client Visit,89,Collaborative,18.1,Dim,Quiet,Occupied,Projector,705,55,High
+2023-03-24,05:00,Friday,A003,Open Space,13,Client Visit,12,Flexible,19.1,Bright,Moderate,Available,Computer,836,53,Low
+2023-03-24,06:00,Friday,A069,Open Space,3,None,16,Quiet,23.3,Dim,Quiet,Under Maintenance,None,912,61,Low
+2023-03-24,07:00,Friday,A037,Open Space,29,Team Meeting,37,Flexible,23.8,Bright,Moderate,Under Maintenance,Whiteboard,929,52,Medium
+2023-03-24,08:00,Friday,A082,Private Office,30,Team Meeting,80,Flexible,24.3,Dim,Quiet,Under Maintenance,Computer,562,56,Medium
+2023-03-24,09:00,Friday,A063,Meeting Room,37,None,77,Collaborative,19.9,Dim,Loud,Under Maintenance,Computer,298,60,Medium
+2023-03-24,10:00,Friday,A029,Open Space,10,Workshop,44,Flexible,20.4,Medium,Moderate,Under Maintenance,None,370,44,Low
+2023-03-24,11:00,Friday,A067,Private Office,34,Workshop,5,Flexible,21.9,Medium,Quiet,Occupied,Computer,845,50,High
+2023-03-24,12:00,Friday,A030,Private Office,7,None,34,Quiet,18.5,Medium,Moderate,Available,Computer,657,50,Low
+2023-03-24,13:00,Friday,A073,Meeting Room,2,Client Visit,13,Quiet,22.9,Bright,Moderate,Under Maintenance,None,163,48,Low
+2023-03-24,14:00,Friday,A051,Open Space,13,Workshop,71,Collaborative,25.9,Bright,Loud,Occupied,None,329,54,Low
+2023-03-24,15:00,Friday,A061,Open Space,12,Team Meeting,60,Collaborative,20.9,Dim,Moderate,Available,None,348,59,Low
+2023-03-24,16:00,Friday,A087,Open Space,44,Workshop,14,Collaborative,24,Medium,Loud,Occupied,Whiteboard,345,65,High
+2023-03-24,17:00,Friday,A015,Open Space,31,Client Visit,53,Collaborative,22,Medium,Loud,Available,Whiteboard,686,68,Medium
+2023-03-24,18:00,Friday,A087,Open Space,33,None,26,Flexible,19,Medium,Loud,Under Maintenance,None,256,65,Medium
+2023-03-24,19:00,Friday,A026,Private Office,44,Client Visit,12,Flexible,22.7,Bright,Quiet,Available,None,834,58,High
+2023-03-24,20:00,Friday,A008,Meeting Room,18,Team Meeting,30,Flexible,20.4,Medium,Loud,Occupied,Projector,801,58,Low
+2023-03-24,21:00,Friday,A060,Private Office,37,Team Meeting,34,Quiet,18.3,Bright,Moderate,Available,Computer,663,49,High
+2023-03-24,22:00,Friday,A072,Private Office,15,Workshop,59,Collaborative,23.1,Bright,Loud,Occupied,Whiteboard,187,49,Low
+2023-03-24,23:00,Friday,A067,Meeting Room,1,None,5,Collaborative,24.9,Medium,Quiet,Occupied,Whiteboard,412,50,Low
+2023-03-25,00:00,Saturday,A062,Private Office,39,Workshop,68,Flexible,20.8,Bright,Quiet,Occupied,Projector,950,55,High
+2023-03-25,01:00,Saturday,A094,Private Office,16,None,85,Flexible,21.1,Bright,Moderate,Available,Computer,165,49,Low
+2023-03-25,02:00,Saturday,A048,Meeting Room,33,Workshop,57,Quiet,25.1,Bright,Loud,Available,Computer,761,53,Medium
+2023-03-25,03:00,Saturday,A078,Private Office,41,Client Visit,48,Collaborative,24.5,Medium,Quiet,Available,None,119,59,High
+2023-03-25,04:00,Saturday,A044,Meeting Room,15,None,22,Flexible,23.7,Dim,Quiet,Under Maintenance,None,132,58,Low
+2023-03-25,05:00,Saturday,A022,Meeting Room,37,Client Visit,88,Collaborative,20,Medium,Loud,Under Maintenance,Computer,939,65,Medium
+2023-03-25,06:00,Saturday,A056,Open Space,1,None,33,Collaborative,25.3,Bright,Moderate,Occupied,Computer,892,61,Low
+2023-03-25,07:00,Saturday,A094,Meeting Room,1,None,25,Collaborative,19.2,Medium,Loud,Under Maintenance,Whiteboard,657,49,Low
+2023-03-25,08:00,Saturday,A034,Meeting Room,37,Client Visit,88,Collaborative,20,Medium,Loud,Under Maintenance,Computer,939,57,Medium
+2023-03-25,09:00,Saturday,A068,Open Space,1,None,33,Collaborative,25.3,Bright,Moderate,Occupied,Computer,892,56,Low
+2023-03-25,10:00,Saturday,A079,Meeting Room,1,None,25,Collaborative,19.2,Medium,Loud,Under Maintenance,Whiteboard,657,42,Low
