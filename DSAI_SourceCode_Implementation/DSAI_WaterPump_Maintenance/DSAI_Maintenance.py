@@ -12,10 +12,10 @@ from sklearn.preprocessing import OneHotEncoder, MinMaxScaler
 from sklearn.metrics import accuracy_score
 from bokeh.models.widgets import Div
 
-SPACE_OPTIMIZE_ASSISTANT_ID = os.environ["SPACE_OPTIMIZE_ASSISTANT_ID"]
+PUMP_ASSISTANT_ID = os.environ["PUMP_ASSISTANT_ID"]
 
 
-def SpaceOptimization():
+def WaterPumpMaintenance():
     
     if 'vAR_preview' not in vAR_st.session_state:
         vAR_st.session_state.vAR_preview = False
@@ -54,18 +54,18 @@ def SpaceOptimization():
     
     if vAR_st.session_state.vAR_preview:
         # Step 2 - Stats Report
-        StatsReport(vAR_data)
+        # StatsReport(vAR_data)
         
         # Step 3 - Extract Insights with LLM
         ExtractInsightsWithLLM()
         
         # Step 4 - Data Preprocessing
         # To handle null values,outliers and feature extraction
-        vAR_data = DataPreprocessing(vAR_data)
+        # vAR_data = DataPreprocessing(vAR_data)
        
     # Step 5 - Feature Selection                 
-    if vAR_st.session_state.vAR_data_preprocess:
-        FeatureSelection(vAR_st.session_state.vAR_preprocessed_data)
+    # if vAR_st.session_state.vAR_data_preprocess:
+    #     FeatureSelection(vAR_st.session_state.vAR_preprocessed_data)
         
     # Step 6 - Model Training
     if len(vAR_st.session_state.vAR_features)>0:
@@ -427,7 +427,7 @@ def ExtractInsightsWithLLM():
     with col2:
         vAR_st.write('')
         vAR_st.write('')
-        vAR_st.subheader('Extract Insights(From LLM)')
+        vAR_st.subheader('Interact with LLM')
         
     with col4:
         vAR_st.write('')

@@ -1,0 +1,15 @@
+Parameter/Property,Facility(w1),Facility(w2),Facility(w3),Facility(w4)
+Length,5.60m,6.78m,3.46m,7.34m
+Crossing angle of a facility axis with roadway axis,45 deg,60 deg,65 deg,45 deg
+Material,sawn wood,wooden pole,wooden pole,wooden pole
+Inside diameter,0.5m,0.3m,0.06m,0.8m
+Outlet,not reinforced,not reinforced,not reinforced,not reinforced
+Facility Longitudinal gradient,3%,5.60%,7%,8%
+Roadway Longitudinal gradient,6%,2.65%,7.40%,4.50%
+Roadway cross gradient,4.50%,5.60%,2.30%,8.30%
+Average terrain gradient behind the outlet,23%,32%,40%,38%
+Roadway width,2.7m,3.6m,8.3m,4.5m
+Sideway width,0.6m,0.3m,0.2m,0.4m
+Surface of road,profiled soil,profiled soil,profiled soil,profiled soil
+By-slope ditch width,0.8m,0.3m,4.5m,3m
+By-slope ditch depth,0.4m,0.4m,0.8m,0.2m
