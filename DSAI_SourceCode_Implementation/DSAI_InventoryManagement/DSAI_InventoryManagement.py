@@ -35,7 +35,7 @@ def ReadFile():
     with col4:
         vAR_st.write('')
         vAR_st.write('')
-        vAR_choice = vAR_st.selectbox(" ",["Select the source","Live Camera","Video","File Upload"])
+        vAR_choice = vAR_st.selectbox(" ",["Select the source","Sensor Device","Surveillance Camera","Video Streaming","Database","File Upload"])
     
     if vAR_choice=="File Upload":
         col1,col2,col3,col4,col5 = vAR_st.columns([2.2,9,0.7,10,2])
