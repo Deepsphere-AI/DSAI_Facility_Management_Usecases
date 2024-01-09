@@ -141,7 +141,7 @@ def ReadFile():
         with col4:
             vAR_st.write('')
             vAR_st.write('')
-            vAR_dataset = vAR_st.file_uploader('Upload Dataset')
+            vAR_dataset = vAR_st.file_uploader('Upload Dataset',key="space-train-file")
         
         
         
@@ -326,7 +326,7 @@ def ModelTesting(vAR_model):
     with col4:
         vAR_st.write('')
         vAR_st.write('')
-        vAR_test_data = vAR_st.file_uploader('Upload Test Data')
+        vAR_test_data = vAR_st.file_uploader('Upload Test Data',key="space-test-file")
         if vAR_test_data:
             vAR_test_data = pd.read_csv(vAR_test_data)
             vAR_test_data['Event'] = vAR_test_data['Event'].fillna(vAR_test_data['Event'].mode()[0])

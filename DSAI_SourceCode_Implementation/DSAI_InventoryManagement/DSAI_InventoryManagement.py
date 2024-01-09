@@ -7,13 +7,13 @@ INVENTORY_ASSISTANT_ID = os.environ["INVENTORY_ASSISTANT_ID"]
 
 def InventoryManagement():
 
-    if 'vAR_preview' not in vAR_st.session_state:
-        vAR_st.session_state.vAR_preview = False
+    if 'vAR_preview_inventory' not in vAR_st.session_state:
+        vAR_st.session_state.vAR_preview_inventory = False
 
     # Step 1 - Read data
     vAR_data = ReadFile()
 
-    if vAR_st.session_state.vAR_preview:
+    if vAR_st.session_state.vAR_preview_inventory:
         ExtractInsightsWithLLM()
 
 
@@ -47,7 +47,7 @@ def ReadFile():
         with col4:
             vAR_st.write('')
             vAR_st.write('')
-            vAR_dataset = vAR_st.file_uploader('Upload Dataset')
+            vAR_dataset = vAR_st.file_uploader('Upload Dataset',key="inventory-file")
         
         
         
@@ -64,7 +64,7 @@ def ReadFile():
             
             col1,col2,col3 = vAR_st.columns([2,8,2])
             with col2:
-                vAR_st.session_state.vAR_preview = True
+                vAR_st.session_state.vAR_preview_inventory = True
                 vAR_st.write("")
                 vAR_st.dataframe(vAR_data)
             
@@ -86,7 +86,7 @@ def ExtractInsightsWithLLM():
     with col4:
         vAR_st.write('')
         vAR_st.write('')
-        vAR_user_input = vAR_st.text_area('Sample : Give me top 3 months usage of syringe.')
+        vAR_user_input = vAR_st.text_area('Sample : What is the number of assets in each category.')
 
         vAR_submit = vAR_st.button("Submit")
     col1,col2,col3 = vAR_st.columns([1.5,10,1.5])

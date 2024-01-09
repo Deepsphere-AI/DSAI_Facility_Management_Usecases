@@ -7,8 +7,8 @@ import base64
 from PIL import Image
 import io
 from sklearn.model_selection import train_test_split
-from sklearn.linear_model import LogisticRegression
-from sklearn.preprocessing import OneHotEncoder, MinMaxScaler
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.preprocessing import OneHotEncoder, MinMaxScaler,LabelEncoder
 from sklearn.metrics import accuracy_score
 from bokeh.models.widgets import Div
 
@@ -17,42 +17,33 @@ PUMP_ASSISTANT_ID = os.environ["PUMP_ASSISTANT_ID"]
 
 def WaterPumpMaintenance():
     
-    if 'vAR_preview' not in vAR_st.session_state:
-        vAR_st.session_state.vAR_preview = False
+    if 'vAR_preview_maintenance' not in vAR_st.session_state:
+        vAR_st.session_state.vAR_preview_maintenance = False
         
-    if 'vAR_stats_report' not in vAR_st.session_state:
-        vAR_st.session_state.vAR_stats_report = False
+    if 'vAR_model_train_maintenance' not in vAR_st.session_state:
+        vAR_st.session_state.vAR_model_train_maintenance = False
         
-    if 'vAR_data_preprocess' not in vAR_st.session_state:
-        vAR_st.session_state.vAR_data_preprocess = False
+    if 'vAR_preprocessed_data_maintenance' not in vAR_st.session_state:
+        vAR_st.session_state.vAR_preprocessed_data_maintenance = None
         
-    if 'vAR_features' not in vAR_st.session_state:
-        vAR_st.session_state.vAR_features = []
+    if 'vAR_model_test_maintenance' not in vAR_st.session_state:
+        vAR_st.session_state.vAR_model_test_maintenance = False
         
-    if 'vAR_model_train' not in vAR_st.session_state:
-        vAR_st.session_state.vAR_model_train = False
+    if 'vAR_model_maintenance' not in vAR_st.session_state:
+        vAR_st.session_state.vAR_model_maintenance = None
         
-    if 'vAR_preprocessed_data' not in vAR_st.session_state:
-        vAR_st.session_state.vAR_preprocessed_data = None
-        
-    if 'vAR_model_test' not in vAR_st.session_state:
-        vAR_st.session_state.vAR_model_test = False
-        
-    if 'vAR_model' not in vAR_st.session_state:
-        vAR_st.session_state.vAR_model = None
-        
-    if "vAR_model_outcome" not in vAR_st.session_state:
-        vAR_st.session_state.vAR_model_outcome = pd.DataFrame()
+    if "vAR_model_outcome_maintenance" not in vAR_st.session_state:
+        vAR_st.session_state.vAR_model_outcome_maintenance = pd.DataFrame()
     
     if "flag" not in vAR_st.session_state:
-        vAR_st.session_state.flag = False
+        vAR_st.session_state.flag_maintenance = False
         
     
         
     # Step 1 - Read data
     vAR_data = ReadFile()
     
-    if vAR_st.session_state.vAR_preview:
+    if vAR_st.session_state.vAR_preview_maintenance:
         # Step 2 - Stats Report
         # StatsReport(vAR_data)
         
@@ -67,13 +58,14 @@ def WaterPumpMaintenance():
     # if vAR_st.session_state.vAR_data_preprocess:
     #     FeatureSelection(vAR_st.session_state.vAR_preprocessed_data)
         
-    # Step 6 - Model Training
-    if len(vAR_st.session_state.vAR_features)>0:
-        ModelTraining(vAR_st.session_state.vAR_preprocessed_data)
-     
+        # Step 6 - Model Training
+        # if len(vAR_st.session_state.vAR_features)>0:
+        vAR_st.session_state.vAR_preprocessed_data_maintenance = vAR_data
+        ModelTraining(vAR_st.session_state.vAR_preprocessed_data_maintenance)
+        
     # Step 7 - Model Testing
-    if vAR_st.session_state.vAR_model_train:
-        vAR_model_outcome = ModelTesting(vAR_st.session_state.vAR_model)
+    if vAR_st.session_state.vAR_model_train_maintenance:
+        vAR_model_outcome = ModelTesting(vAR_st.session_state.vAR_model_maintenance)
         
         vAR_st.write("")
         vAR_st.write("")
@@ -82,9 +74,9 @@ def WaterPumpMaintenance():
         with col2:
             vAR_st.dataframe(vAR_model_outcome)   
         
-    if vAR_st.session_state.vAR_model_test and len(vAR_st.session_state.vAR_model_outcome)>0:
-        vAR_csv = vAR_st.session_state.vAR_model_outcome.to_csv(index=False).encode('utf-8')
-        vAR_st.session_state.flag = True
+    if vAR_st.session_state.vAR_model_test_maintenance and len(vAR_st.session_state.vAR_model_outcome_maintenance)>0:
+        vAR_csv = vAR_st.session_state.vAR_model_outcome_maintenance.to_csv(index=False).encode('utf-8')
+        vAR_st.session_state.flag_maintenance = True
         col1,col2,col3,col4,col5 = vAR_st.columns([2.2,9,0.7,10,2])
         with col4:
             vAR_st.download_button(
@@ -94,14 +86,14 @@ def WaterPumpMaintenance():
     "text/csv",
     key='download-csv'
     )
-    # # Step 8 - Model Outcome Visualization & Download
-    # if len(vAR_st.session_state.vAR_model_outcome)>0 and vAR_st.session_state.flag:
-    #     ModelOutcomeVisuals(vAR_model_outcome)
+        # # Step 8 - Model Outcome Visualization & Download
+        # if len(vAR_st.session_state.vAR_model_outcome)>0 and vAR_st.session_state.flag:
+        #     ModelOutcomeVisuals(vAR_model_outcome)
+            
+        # Step 9 - Looker studio Reports
         
-    # Step 9 - Looker studio Reports
-    
-    if len(vAR_st.session_state.vAR_model_outcome)>0 and vAR_st.session_state.flag:  
-        ExploreWithLooker()
+        # if len(vAR_st.session_state.vAR_model_outcome)>0 and vAR_st.session_state.flag:  
+        #     ExploreWithLooker()
 
             
 
@@ -141,7 +133,7 @@ def ReadFile():
         with col4:
             vAR_st.write('')
             vAR_st.write('')
-            vAR_dataset = vAR_st.file_uploader('Upload Dataset')
+            vAR_dataset = vAR_st.file_uploader('Upload Dataset',key="water-train-file")
         
         
         
@@ -158,7 +150,7 @@ def ReadFile():
             
             col1,col2,col3 = vAR_st.columns([2,8,2])
             with col2:
-                vAR_st.session_state.vAR_preview = True
+                vAR_st.session_state.vAR_preview_maintenance = True
                 vAR_st.write("")
                 vAR_st.dataframe(vAR_data)
             
@@ -267,33 +259,19 @@ def ModelTraining(vAR_data):
         vAR_train = vAR_st.button('Train the Model')
     
         if vAR_train:
-            vAR_st.session_state.vAR_model_train = True
+            vAR_st.session_state.vAR_model_train_maintenance = True
             # Applying OneHotEncoder
-            vAR_data_new = vAR_data.drop(columns = ["Date","Time"])
-            vAR_X = vAR_data_new.drop(columns = ["UtilizationLabel"])
-            vAR_y = vAR_data_new["UtilizationLabel"]
-            vAR_categorical_cols = vAR_data_new.select_dtypes(include=['object']).columns.tolist()
+            vAR_X = vAR_data.drop(columns = ["Failure Indicator","Timestamp", "Pump ID"])
+            vAR_y = vAR_data["Failure Indicator"]
             
-            encoder = OneHotEncoder(sparse=False)
-            encoded_categorical = encoder.fit_transform(vAR_data_new[vAR_categorical_cols])
-            
-            print('shape of encoded_categorical - ',encoded_categorical.shape)
-            print('$$$$$$ - ',len(encoder.get_feature_names_out(vAR_categorical_cols)))
-            # Convert encoded data to DataFrame
-            vAR_encoded_categorical_df = pd.DataFrame(encoded_categorical, columns=encoder.get_feature_names_out(vAR_categorical_cols))
-            
-            vAR_numerical_cols = vAR_data_new.select_dtypes(exclude=['object']).columns.tolist()
-
-            vAR_numerical_data = vAR_data_new[vAR_numerical_cols]
-            
-            combined_data = pd.concat([vAR_numerical_data, vAR_encoded_categorical_df], axis=1)
-            
+            label_encoder = LabelEncoder()
+            vAR_X['Maintenance History'] = label_encoder.fit_transform(vAR_X['Maintenance History'])
             
             # Initializing MinMaxScaler
             scaler = MinMaxScaler()
 
             # Applying scaler to the combined data
-            scaled_data = scaler.fit_transform(combined_data)
+            scaled_data = scaler.fit_transform(vAR_X)
             
             print('scaled data shape - ',scaled_data.shape)
             
@@ -305,12 +283,13 @@ def ModelTraining(vAR_data):
             X_train = scaled_data
             y_train = vAR_y
             
-            # Creating and training the model
-            # lbfgs - Limited-memory Broyden–Fletcher–Goldfarb–Shanno. It approximates the second derivative matrix updates with gradient evaluations.
-            model = LogisticRegression(multi_class='multinomial', solver='lbfgs')
+            # Model Selection
+            model = RandomForestClassifier(n_estimators=100, random_state=42)
+
+            # Model Training
             model.fit(X_train, y_train)
             
-            vAR_st.session_state.vAR_model = model
+            vAR_st.session_state.vAR_model_maintenance = model
             
             vAR_st.success("Model successfully trained!")
                 
@@ -326,46 +305,30 @@ def ModelTesting(vAR_model):
     with col4:
         vAR_st.write('')
         vAR_st.write('')
-        vAR_test_data = vAR_st.file_uploader('Upload Test Data')
+        vAR_test_data = vAR_st.file_uploader('Upload Test Data',key="water-test-file")
         if vAR_test_data:
             vAR_test_data = pd.read_csv(vAR_test_data)
-            vAR_test_data['Event'] = vAR_test_data['Event'].fillna(vAR_test_data['Event'].mode()[0])
-            vAR_test_data['SpecialEquipment'] = vAR_test_data['SpecialEquipment'].fillna(vAR_test_data['SpecialEquipment'].mode()[0])
             vAR_st.write('')
             vAR_st.write('')
             vAR_test_model = vAR_st.button("Test Model")
         
     if vAR_test_model:
-        vAR_st.session_state.vAR_model_test = True
+        vAR_st.session_state.vAR_model_test_maintenance = True
         
         with vAR_st.spinner("Model Testing is in-progress"):
             
             
-            vAR_data_new = vAR_test_data.drop(columns = ["Date","Time"])
-            vAR_X = vAR_data_new.drop(columns = ["UtilizationLabel"])
-            vAR_X.insert(0,column="Date",value=vAR_test_data["Date"])
-            vAR_X.insert(1,column="Time",value=vAR_test_data["Time"])
-            vAR_y = vAR_data_new["UtilizationLabel"]
-            vAR_categorical_cols = vAR_data_new.select_dtypes(include=['object']).columns.tolist()
+            vAR_X = vAR_test_data
             
-            encoder = OneHotEncoder(sparse=False)
-            encoded_categorical = encoder.fit_transform(vAR_data_new[vAR_categorical_cols])
-            
-            # Convert encoded data to DataFrame
-            vAR_encoded_categorical_df = pd.DataFrame(encoded_categorical, columns=encoder.get_feature_names_out(vAR_categorical_cols))
-            
-            vAR_numerical_cols = vAR_data_new.select_dtypes(exclude=['object']).columns.tolist()
-
-            vAR_numerical_data = vAR_data_new[vAR_numerical_cols]
-            
-            combined_data = pd.concat([vAR_numerical_data, vAR_encoded_categorical_df], axis=1)
+            label_encoder = LabelEncoder()
+            vAR_test_data['Maintenance History'] = label_encoder.fit_transform(vAR_test_data['Maintenance History'])
             
             
             # Initializing MinMaxScaler
             scaler = MinMaxScaler()
 
             # Applying scaler to the combined data
-            scaled_data = scaler.fit_transform(combined_data)
+            scaled_data = scaler.fit_transform(vAR_test_data)
             
             print('scaled data shape - ',scaled_data.shape)
             
@@ -375,40 +338,11 @@ def ModelTesting(vAR_model):
             
             print('y pred - ',y_pred)
             
-            vAR_X["ActualLabel"] = vAR_y
+            vAR_X['Prediction'] = ['Likely to Fail' if pred == 1 else 'Likely Safe' for pred in y_pred]
             
-            vAR_X["PredictedLabel"] = y_pred
-            
-            vAR_st.session_state.vAR_model_outcome = vAR_X
+            vAR_st.session_state.vAR_model_outcome_maintenance = vAR_X
             
             return vAR_X
-        
-def ModelOutcomeVisuals(vAR_data):
-    col1,col2,col3,col4,col5 = vAR_st.columns([2.2,9,0.7,10,2])
-    with col4:
-        vAR_st.write(" ")
-        vAR_visual = vAR_st.button("Model Outcome Visualization")
-        
-        if vAR_visual:
-            vAR_st.write("Testes")
-
-
-def ExploreWithLooker():
-    
-    col1,col2,col3,col4,col5 = vAR_st.columns([2.2,9,0.7,10,2])
-    with col4:
-        vAR_st.write(" ")
-        vAR_visual_looker = vAR_st.button("Explore With LookerStudio")
-        
-        if vAR_visual_looker:
-            js = "window.open('https://lookerstudio.google.com/reporting/75803ec5-7b41-447f-87db-0db79391dd0f')"
-            html = '<img src onerror="{}">'.format(js)
-            div = Div(text=html)
-            vAR_st.bokeh_chart(div)
-            
-            
-            
-
     
     
     
@@ -432,14 +366,14 @@ def ExtractInsightsWithLLM():
     with col4:
         vAR_st.write('')
         vAR_st.write('')
-        vAR_user_input = vAR_st.text_area('Sample : Which day has the highest occupancy count.')
+        vAR_user_input = vAR_st.text_area('Sample : Which pump will be defective first? Why?')
 
         vAR_submit = vAR_st.button("Submit")
     col1,col2,col3 = vAR_st.columns([1.5,10,1.5])
     
     if vAR_submit:   
         if vAR_user_input:
-            vAR_llm_response = DataInsightsWithAssistant(vAR_user_input,SPACE_OPTIMIZE_ASSISTANT_ID)
+            vAR_llm_response = DataInsightsWithAssistant(vAR_user_input,PUMP_ASSISTANT_ID)
             
             with col2:
                 vAR_st.info(vAR_llm_response) 

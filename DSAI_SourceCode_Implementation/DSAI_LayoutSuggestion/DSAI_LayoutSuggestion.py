@@ -69,8 +69,8 @@ def GenerateLayoutImage():
         vAR_facility_type = vAR_st.selectbox(" ",["Select Anyone","Corporate Office","Shopping Mall","Hospital","Restaurant","Factory"])
 
         vAR_st.write('')
-        vAR_spec_file = vAR_st.file_uploader('Specification File')
-
+        vAR_spec_file = vAR_st.file_uploader('Specification File',key="spec-file")
+    
     if vAR_spec_file:
         with col4:
             vAR_st.write('')
@@ -78,6 +78,7 @@ def GenerateLayoutImage():
             vAR_facility_spec_preview = vAR_st.button("Preview Facility Specification")
         with col7:
             if vAR_facility_spec_preview:
+                print("preview - ",True)
                 vAR_spec = pd.read_csv(vAR_spec_file)
                 vAR_st.dataframe(vAR_spec)
                 

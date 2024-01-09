@@ -1,0 +1,501 @@
+Asset ID,Category,Purchase Date,Condition,Location,Value ($),Asset Name,Warranty Period (Days)
+A1000,Lifts,13-02-2022,Out of Service,Room 49,3629.986871,Freight Elevator,1095
+A1001,CCTV,08-01-2012,Needs Repair,Room 29,1624.145587,CCTV Camera Type A,1460
+A1002,Fire Safety Systems,28-10-2011,Needs Repair,Room 46,827.1022908,Smoke Detector,1460
+A1003,Fire Safety Systems,05-09-2014,Used,Room 16,3492.723433,Sprinkler System,1095
+A1004,CCTV,01-04-2023,Good,Room 36,3635.242076,CCTV Camera Type B,1460
+A1005,Roofing,30-03-2019,Used,Room 31,2001.451523,Flat Roof,730
+A1006,Gas Supply Systems,28-01-2013,Needs Repair,Room 16,4680.663982,Gas Detector,1825
+A1007,Water Supply Systems,21-09-2018,New,Room 29,3541.304637,Water Tank,1460
+A1008,Roofing,09-06-2013,Out of Service,Room 32,4441.180862,Metal Roof,730
+A1009,Fire Safety Systems,04-10-2015,Needs Repair,Room 1,3574.746967,Smoke Detector,730
+A1010,CCTV,12-12-2018,New,Room 22,3097.229384,CCTV Camera Type C,1460
+A1011,Gas Supply Systems,10-08-2018,New,Room 50,1680.676501,Gas Detector,1825
+A1012,CCTV,26-10-2017,Good,Room 36,422.157215,CCTV Camera Type C,1825
+A1013,Plumbing Systems,08-12-2010,Needs Repair,Room 23,2700.80534,Sewage Pump,2555
+A1014,Plumbing Systems,21-11-2023,New,Room 39,929.3385472,Sewage Pump,365
+A1015,Gas Supply Systems,18-08-2023,Needs Repair,Room 40,4012.766206,Gas Meter,2555
+A1016,Electrical Systems,17-01-2018,Used,Room 1,1864.629394,Lighting System,730
+A1017,Plumbing Systems,19-03-2012,Out of Service,Room 21,3943.002283,Sewage Pump,1095
+A1018,Water Supply Systems,23-11-2013,Needs Repair,Room 6,2153.300684,Water Filtration System,1825
+A1019,Roofing,13-09-2021,Good,Room 38,3389.323101,Shingle Roof,1460
+A1020,Fire Safety Systems,22-03-2015,Out of Service,Room 7,2909.478959,Fire Extinguisher,1460
+A1021,CCTV,10-10-2023,New,Room 9,2583.081538,CCTV Camera Type C,1095
+A1022,Gas Supply Systems,07-08-2023,Needs Repair,Room 27,737.4552953,Gas Meter,1095
+A1023,CCTV,27-02-2010,Used,Room 36,1051.999241,CCTV Camera Type B,1825
+A1024,Alarms,06-08-2023,Used,Room 3,4557.809507,Carbon Monoxide Alarm,1095
+A1025,HVAC Systems,17-01-2013,Used,Room 47,120.8412462,Ventilation Fan,730
+A1026,Plumbing Systems,16-11-2019,Out of Service,Room 7,2846.197245,Water Heater,1460
+A1027,Alarms,16-02-2018,Out of Service,Room 50,3237.622828,Fire Alarm,1460
+A1028,Water Supply Systems,24-02-2020,New,Room 42,1998.979424,Water Tank,2555
+A1029,HVAC Systems,03-01-2017,New,Room 30,3295.960377,Furnace,1095
+A1030,Plumbing Systems,06-04-2021,Good,Room 16,679.9734985,Water Heater,1460
+A1031,Gas Supply Systems,26-10-2010,Good,Room 3,1516.522097,Gas Meter,1825
+A1032,Lifts,17-12-2014,Good,Room 15,4761.976525,Service Lift,2555
+A1033,CCTV,04-11-2018,Used,Room 1,2833.935322,CCTV Camera Type C,1095
+A1034,Lifts,16-01-2011,Needs Repair,Room 14,1234.641894,Passenger Lift,1825
+A1035,Alarms,27-11-2018,Needs Repair,Room 27,3605.968926,Burglar Alarm,2555
+A1036,HVAC Systems,23-03-2021,Used,Room 10,556.7993793,Furnace,2555
+A1037,Roofing,15-12-2014,Used,Room 49,2583.886002,Metal Roof,1825
+A1038,HVAC Systems,20-08-2015,Good,Room 4,3744.516338,Furnace,1095
+A1039,Alarms,24-12-2018,Out of Service,Room 36,1954.49798,Fire Alarm,730
+A1040,Water Supply Systems,02-03-2013,Needs Repair,Room 12,1158.761288,Pressure Booster Pump,1460
+A1041,Lifts,24-07-2017,New,Room 31,4781.968351,Service Lift,2555
+A1042,Plumbing Systems,16-06-2023,Out of Service,Room 50,195.695202,Sewage Pump,1460
+A1043,Roofing,11-07-2018,Out of Service,Room 26,4612.984823,Flat Roof,1460
+A1044,Lifts,22-06-2018,Needs Repair,Room 8,3532.637286,Service Lift,1460
+A1045,Fire Safety Systems,12-01-2023,Used,Room 48,274.9176824,Fire Extinguisher,1825
+A1046,CCTV,10-07-2015,Out of Service,Room 24,2881.625306,CCTV Camera Type B,365
+A1047,Lifts,06-06-2015,New,Room 26,303.5292612,Freight Elevator,1825
+A1048,Gas Supply Systems,11-07-2010,Out of Service,Room 1,1256.946587,Gas Detector,2555
+A1049,Plumbing Systems,02-09-2016,Needs Repair,Room 10,4539.8759,Sewage Pump,365
+A1050,Fire Safety Systems,29-10-2016,Good,Room 34,4596.763211,Fire Extinguisher,1825
+A1051,CCTV,27-08-2010,Used,Room 32,3826.903591,CCTV Camera Type B,1825
+A1052,HVAC Systems,11-10-2014,Out of Service,Room 29,4221.090573,Ventilation Fan,1460
+A1053,Water Supply Systems,20-01-2012,New,Room 7,403.8866691,Water Filtration System,1095
+A1054,Gas Supply Systems,03-08-2017,Needs Repair,Room 41,4460.792194,Gas Meter,1460
+A1055,Fire Safety Systems,03-12-2018,Needs Repair,Room 27,2845.233817,Smoke Detector,365
+A1056,Gas Supply Systems,08-04-2023,Good,Room 14,1430.043282,Gas Pipeline,1460
+A1057,CCTV,17-07-2010,Used,Room 42,1178.491644,CCTV Camera Type B,730
+A1058,HVAC Systems,05-01-2012,Used,Room 7,4576.948126,Furnace,1825
+A1059,CCTV,23-07-2016,Used,Room 10,2986.939753,CCTV Camera Type A,1825
+A1060,Electrical Systems,10-12-2011,Good,Room 34,3901.828739,Power Distribution Panel,1825
+A1061,CCTV,11-07-2010,New,Room 41,1972.64742,CCTV Camera Type A,365
+A1062,Roofing,30-05-2012,Needs Repair,Room 6,1765.243013,Shingle Roof,1460
+A1063,Water Supply Systems,22-07-2011,New,Room 23,2356.310736,Pressure Booster Pump,1825
+A1064,Plumbing Systems,06-02-2010,Used,Room 13,959.5948111,Sewage Pump,1825
+A1065,Roofing,18-09-2018,New,Room 12,3938.223064,Flat Roof,1460
+A1066,HVAC Systems,07-12-2010,New,Room 5,2178.46572,Central Air Conditioner,365
+A1067,Plumbing Systems,04-03-2016,Needs Repair,Room 44,4841.729314,Water Heater,365
+A1068,Plumbing Systems,09-02-2023,Needs Repair,Room 14,4209.080499,Piping Network,1095
+A1069,Electrical Systems,16-08-2018,Out of Service,Room 18,1146.130171,Power Distribution Panel,1825
+A1070,Fire Safety Systems,22-10-2016,Out of Service,Room 42,2019.4433,Smoke Detector,1460
+A1071,Lifts,25-11-2015,Good,Room 42,2049.915189,Freight Elevator,1095
+A1072,CCTV,18-04-2021,Used,Room 39,3868.37017,CCTV Camera Type C,1825
+A1073,Fire Safety Systems,04-02-2019,New,Room 16,2780.229861,Smoke Detector,1460
+A1074,Roofing,04-08-2013,Needs Repair,Room 26,575.3511505,Metal Roof,1825
+A1075,HVAC Systems,24-03-2019,New,Room 40,4818.721406,Ventilation Fan,1460
+A1076,Fire Safety Systems,16-08-2016,Out of Service,Room 20,105.7996666,Smoke Detector,2555
+A1077,Plumbing Systems,15-10-2012,Out of Service,Room 42,2365.955712,Piping Network,1825
+A1078,Plumbing Systems,26-05-2018,Good,Room 26,3409.551173,Sewage Pump,730
+A1079,Alarms,14-08-2015,Needs Repair,Room 20,4322.62454,Burglar Alarm,2555
+A1080,Water Supply Systems,21-04-2015,New,Room 41,222.5681934,Water Filtration System,1460
+A1081,HVAC Systems,12-10-2014,New,Room 29,641.0009862,Central Air Conditioner,1825
+A1082,Roofing,28-12-2020,Out of Service,Room 31,2862.151183,Shingle Roof,1095
+A1083,HVAC Systems,14-10-2018,Used,Room 18,3181.441145,Furnace,1095
+A1084,Plumbing Systems,07-07-2010,Out of Service,Room 13,4366.901441,Piping Network,365
+A1085,Alarms,27-11-2016,New,Room 32,3149.758587,Carbon Monoxide Alarm,1095
+A1086,Lifts,04-01-2013,Good,Room 32,689.2086481,Service Lift,1460
+A1087,CCTV,23-07-2018,Needs Repair,Room 36,191.5686353,CCTV Camera Type A,1095
+A1088,Roofing,12-01-2010,Used,Room 18,1127.959903,Shingle Roof,1825
+A1089,Roofing,11-09-2010,Needs Repair,Room 49,2021.117328,Metal Roof,730
+A1090,CCTV,30-10-2012,Needs Repair,Room 5,1637.976275,CCTV Camera Type B,2555
+A1091,Roofing,08-07-2015,New,Room 32,2717.78963,Metal Roof,730
+A1092,Water Supply Systems,23-04-2020,Used,Room 21,4794.081707,Water Filtration System,1825
+A1093,Plumbing Systems,10-06-2022,Good,Room 17,3313.90455,Water Heater,1825
+A1094,Plumbing Systems,05-09-2018,Out of Service,Room 35,1290.028839,Sewage Pump,730
+A1095,Fire Safety Systems,30-10-2011,Used,Room 34,3071.686652,Fire Extinguisher,2555
+A1096,Electrical Systems,17-04-2022,New,Room 15,236.1003548,Emergency Generator,1825
+A1097,Roofing,26-02-2018,Needs Repair,Room 37,3090.001549,Metal Roof,1825
+A1098,Plumbing Systems,01-09-2010,New,Room 16,934.0828881,Sewage Pump,365
+A1099,HVAC Systems,02-10-2021,New,Room 4,3168.304113,Central Air Conditioner,1095
+A1100,Alarms,06-12-2010,Good,Room 28,3520.864309,Fire Alarm,730
+A1101,Lifts,21-05-2019,Needs Repair,Room 1,1209.595807,Service Lift,1460
+A1102,Gas Supply Systems,27-08-2015,Used,Room 26,3373.094637,Gas Detector,2555
+A1103,HVAC Systems,03-04-2011,Used,Room 16,169.8134996,Furnace,365
+A1104,Lifts,09-02-2018,Good,Room 24,753.7610933,Service Lift,1825
+A1105,Gas Supply Systems,06-06-2013,Used,Room 30,3657.373329,Gas Pipeline,1825
+A1106,Electrical Systems,21-01-2015,Used,Room 9,1276.503815,Power Distribution Panel,1095
+A1107,Lifts,29-01-2015,Needs Repair,Room 1,4852.230918,Passenger Lift,1095
+A1108,CCTV,07-01-2019,Needs Repair,Room 18,592.7314532,CCTV Camera Type C,2555
+A1109,Alarms,10-02-2016,Out of Service,Room 30,4087.706303,Carbon Monoxide Alarm,1825
+A1110,Gas Supply Systems,23-01-2016,New,Room 27,4817.826914,Gas Detector,2555
+A1111,Water Supply Systems,23-09-2018,Good,Room 38,1873.338062,Water Tank,2555
+A1112,Lifts,04-01-2017,Good,Room 50,4752.399317,Service Lift,2555
+A1113,HVAC Systems,25-02-2018,New,Room 21,2943.208862,Central Air Conditioner,1825
+A1114,CCTV,03-08-2023,Out of Service,Room 46,4881.547608,CCTV Camera Type A,1825
+A1115,Plumbing Systems,04-05-2014,Good,Room 28,4423.382577,Water Heater,1460
+A1116,Lifts,09-10-2010,Out of Service,Room 24,144.6212148,Service Lift,1095
+A1117,Roofing,15-10-2017,Used,Room 3,392.7485616,Flat Roof,730
+A1118,Fire Safety Systems,02-12-2016,Used,Room 5,1509.209112,Fire Extinguisher,1095
+A1119,Roofing,20-03-2010,Good,Room 7,2120.014513,Flat Roof,1095
+A1120,Alarms,11-09-2018,New,Room 41,4499.183043,Fire Alarm,1460
+A1121,Electrical Systems,08-07-2013,New,Room 28,2366.540335,Emergency Generator,1460
+A1122,Roofing,16-01-2012,Used,Room 11,4848.346563,Metal Roof,1825
+A1123,Lifts,21-12-2013,Used,Room 14,3038.168694,Freight Elevator,1095
+A1124,CCTV,27-07-2012,Needs Repair,Room 24,194.3404079,CCTV Camera Type B,365
+A1125,Roofing,01-08-2015,Used,Room 32,2005.704039,Flat Roof,1825
+A1126,Water Supply Systems,07-01-2014,Needs Repair,Room 31,212.1960479,Pressure Booster Pump,1825
+A1127,Gas Supply Systems,06-07-2011,Good,Room 8,256.68998,Gas Detector,1825
+A1128,CCTV,10-06-2010,New,Room 3,2881.264682,CCTV Camera Type C,2555
+A1129,HVAC Systems,29-07-2019,New,Room 12,3608.915796,Central Air Conditioner,1460
+A1130,Lifts,06-03-2016,Good,Room 12,3361.126386,Passenger Lift,1095
+A1131,Gas Supply Systems,13-11-2015,New,Room 32,2905.610309,Gas Pipeline,1095
+A1132,Fire Safety Systems,05-09-2012,New,Room 2,815.0428579,Smoke Detector,1825
+A1133,HVAC Systems,05-05-2019,Needs Repair,Room 10,761.5154527,Furnace,2555
+A1134,Lifts,18-01-2018,Used,Room 43,1803.072176,Passenger Lift,1460
+A1135,Lifts,25-05-2023,New,Room 37,2109.037278,Freight Elevator,1825
+A1136,Water Supply Systems,16-01-2010,Good,Room 17,4265.911814,Water Filtration System,730
+A1137,CCTV,23-02-2016,New,Room 20,2422.568645,CCTV Camera Type B,1825
+A1138,Water Supply Systems,08-07-2013,Out of Service,Room 29,1863.192034,Water Tank,365
+A1139,Gas Supply Systems,18-05-2013,Good,Room 1,3922.356707,Gas Pipeline,1825
+A1140,Plumbing Systems,04-12-2022,Good,Room 7,4519.278107,Piping Network,1095
+A1141,Roofing,15-11-2019,Used,Room 6,796.5274657,Flat Roof,1460
+A1142,Roofing,29-04-2017,Needs Repair,Room 12,2250.529139,Shingle Roof,1825
+A1143,Lifts,13-05-2018,Out of Service,Room 26,4183.228601,Freight Elevator,1460
+A1144,Electrical Systems,11-03-2021,Used,Room 7,2523.053397,Power Distribution Panel,2555
+A1145,Electrical Systems,12-12-2023,New,Room 4,2739.653966,Power Distribution Panel,365
+A1146,Gas Supply Systems,03-08-2014,New,Room 20,3599.15359,Gas Meter,1095
+A1147,Fire Safety Systems,19-09-2019,Needs Repair,Room 21,441.3123855,Sprinkler System,1095
+A1148,Gas Supply Systems,22-12-2018,Used,Room 31,1634.237971,Gas Pipeline,1825
+A1149,Alarms,11-12-2011,Good,Room 3,3645.266647,Carbon Monoxide Alarm,365
+A1150,CCTV,06-11-2020,Out of Service,Room 17,3441.536867,CCTV Camera Type B,1825
+A1151,Lifts,30-06-2019,Out of Service,Room 36,3663.578569,Service Lift,1095
+A1152,Plumbing Systems,10-12-2015,Out of Service,Room 12,2798.793194,Piping Network,1825
+A1153,Electrical Systems,26-01-2016,Good,Room 30,1316.810783,Lighting System,1460
+A1154,Fire Safety Systems,02-12-2022,Good,Room 1,4733.256379,Fire Extinguisher,1825
+A1155,Electrical Systems,02-11-2012,Good,Room 22,2312.446049,Power Distribution Panel,1460
+A1156,Electrical Systems,15-11-2010,New,Room 10,253.2314596,Lighting System,1825
+A1157,Electrical Systems,26-06-2011,Out of Service,Room 28,4475.107117,Power Distribution Panel,1095
+A1158,Water Supply Systems,03-05-2022,Good,Room 19,536.5595473,Water Tank,1460
+A1159,Lifts,29-05-2011,Out of Service,Room 37,3908.460587,Service Lift,1825
+A1160,Fire Safety Systems,05-10-2023,Out of Service,Room 3,1044.356068,Sprinkler System,1460
+A1161,Alarms,23-10-2021,Good,Room 17,3460.133639,Fire Alarm,1095
+A1162,Electrical Systems,24-09-2012,New,Room 4,3417.421389,Power Distribution Panel,1825
+A1163,Fire Safety Systems,04-02-2015,Used,Room 19,1310.918889,Smoke Detector,1460
+A1164,CCTV,26-11-2023,New,Room 2,1756.55123,CCTV Camera Type B,730
+A1165,Plumbing Systems,09-11-2011,Used,Room 3,354.3940285,Piping Network,1825
+A1166,Gas Supply Systems,08-05-2019,New,Room 46,3358.098876,Gas Detector,1825
+A1167,CCTV,12-04-2016,Used,Room 5,4098.159677,CCTV Camera Type B,2555
+A1168,Electrical Systems,16-10-2015,Good,Room 3,3885.804656,Power Distribution Panel,1095
+A1169,Roofing,16-03-2012,New,Room 48,3258.681196,Flat Roof,1095
+A1170,Electrical Systems,24-08-2012,Out of Service,Room 9,4217.354842,Power Distribution Panel,1460
+A1171,Roofing,27-04-2015,Needs Repair,Room 3,1286.213606,Shingle Roof,1095
+A1172,Water Supply Systems,05-02-2016,Good,Room 5,4385.980137,Water Filtration System,1460
+A1173,Fire Safety Systems,15-10-2010,Good,Room 32,1782.469686,Sprinkler System,365
+A1174,Roofing,26-09-2019,Used,Room 17,3584.197649,Flat Roof,1460
+A1175,Plumbing Systems,09-01-2015,Needs Repair,Room 15,873.9157899,Sewage Pump,1460
+A1176,Lifts,17-11-2012,Good,Room 46,766.4787632,Passenger Lift,1825
+A1177,Roofing,09-06-2012,Needs Repair,Room 39,2258.570706,Flat Roof,1825
+A1178,Alarms,02-01-2011,Good,Room 5,1133.089964,Burglar Alarm,1825
+A1179,HVAC Systems,13-04-2023,Good,Room 23,3755.521081,Central Air Conditioner,730
+A1180,HVAC Systems,29-05-2011,Needs Repair,Room 50,4545.851552,Furnace,730
+A1181,Roofing,17-04-2021,Out of Service,Room 45,1430.103208,Flat Roof,1095
+A1182,Lifts,14-09-2022,New,Room 31,3137.951162,Freight Elevator,365
+A1183,CCTV,01-06-2010,Used,Room 46,1179.841865,CCTV Camera Type B,1825
+A1184,Alarms,06-09-2010,Out of Service,Room 15,131.2529879,Carbon Monoxide Alarm,1460
+A1185,HVAC Systems,09-09-2011,New,Room 11,3412.777493,Furnace,365
+A1186,Gas Supply Systems,28-06-2015,Needs Repair,Room 37,2867.317792,Gas Pipeline,1460
+A1187,Water Supply Systems,04-11-2021,New,Room 6,527.413214,Water Tank,1460
+A1188,Alarms,30-04-2010,Used,Room 7,1670.090742,Carbon Monoxide Alarm,2555
+A1189,Gas Supply Systems,19-08-2018,Out of Service,Room 11,4200.154398,Gas Detector,1095
+A1190,CCTV,08-12-2016,Good,Room 46,4901.732756,CCTV Camera Type C,1825
+A1191,Water Supply Systems,14-06-2015,Used,Room 29,1903.262265,Water Tank,1095
+A1192,Fire Safety Systems,24-11-2017,Used,Room 45,3791.293976,Sprinkler System,1095
+A1193,Gas Supply Systems,29-08-2013,Used,Room 39,1647.33477,Gas Pipeline,1825
+A1194,Lifts,11-02-2012,Needs Repair,Room 27,653.0194566,Freight Elevator,365
+A1195,Gas Supply Systems,08-08-2011,Out of Service,Room 33,3678.271481,Gas Detector,1095
+A1196,Plumbing Systems,13-12-2011,Used,Room 11,391.3802964,Sewage Pump,1460
+A1197,Plumbing Systems,24-11-2012,Good,Room 21,895.8143808,Water Heater,1825
+A1198,CCTV,11-10-2017,Out of Service,Room 45,1793.847407,CCTV Camera Type A,730
+A1199,Lifts,03-05-2012,Out of Service,Room 13,865.9688406,Service Lift,1825
+A1200,Fire Safety Systems,05-07-2013,Used,Room 37,3467.153663,Smoke Detector,1825
+A1201,Fire Safety Systems,16-09-2023,Out of Service,Room 30,4300.618086,Fire Extinguisher,1825
+A1202,Electrical Systems,02-03-2011,Out of Service,Room 8,4116.003923,Lighting System,1095
+A1203,Electrical Systems,26-06-2012,Good,Room 25,1436.604657,Emergency Generator,1095
+A1204,CCTV,09-09-2021,New,Room 25,4102.470709,CCTV Camera Type C,2555
+A1205,Fire Safety Systems,23-03-2019,Needs Repair,Room 47,203.7085652,Sprinkler System,1825
+A1206,Roofing,31-10-2016,Used,Room 48,4031.331856,Shingle Roof,1460
+A1207,Roofing,08-10-2017,Needs Repair,Room 9,2536.201677,Shingle Roof,1825
+A1208,Electrical Systems,28-11-2022,Used,Room 11,1694.869806,Power Distribution Panel,1825
+A1209,Water Supply Systems,03-06-2017,Good,Room 35,3506.785932,Water Filtration System,1460
+A1210,Alarms,26-05-2014,Used,Room 31,2518.522773,Burglar Alarm,2555
+A1211,HVAC Systems,14-09-2014,Out of Service,Room 36,4324.642769,Central Air Conditioner,1460
+A1212,Plumbing Systems,05-05-2023,Needs Repair,Room 39,2102.456923,Piping Network,1825
+A1213,Roofing,28-06-2015,Out of Service,Room 37,4592.715698,Shingle Roof,1825
+A1214,Alarms,26-03-2022,Needs Repair,Room 33,1602.626136,Fire Alarm,1825
+A1215,CCTV,13-01-2010,New,Room 17,1618.351155,CCTV Camera Type C,730
+A1216,Electrical Systems,24-12-2019,Used,Room 12,878.2610175,Emergency Generator,1825
+A1217,HVAC Systems,25-08-2016,Out of Service,Room 33,2154.627083,Furnace,1095
+A1218,CCTV,12-10-2023,Out of Service,Room 42,4672.207875,CCTV Camera Type B,1825
+A1219,Electrical Systems,26-01-2015,Out of Service,Room 48,3580.898251,Lighting System,1460
+A1220,Fire Safety Systems,03-05-2018,Good,Room 30,871.3929459,Fire Extinguisher,1825
+A1221,Fire Safety Systems,11-03-2014,Out of Service,Room 21,2108.554247,Fire Extinguisher,1825
+A1222,Lifts,10-11-2015,Good,Room 47,1430.683198,Passenger Lift,365
+A1223,CCTV,28-11-2014,Good,Room 44,1743.887822,CCTV Camera Type B,1095
+A1224,Plumbing Systems,10-04-2022,Good,Room 1,1959.755116,Sewage Pump,1825
+A1225,Water Supply Systems,01-04-2017,New,Room 20,3509.276893,Water Tank,1825
+A1226,Alarms,02-11-2022,Needs Repair,Room 3,2217.132612,Fire Alarm,1095
+A1227,Roofing,02-07-2014,Needs Repair,Room 11,1532.177694,Flat Roof,1825
+A1228,Electrical Systems,27-11-2021,Needs Repair,Room 39,3297.762156,Emergency Generator,365
+A1229,Fire Safety Systems,19-03-2022,Good,Room 6,3717.678703,Sprinkler System,730
+A1230,Roofing,05-01-2014,New,Room 37,2917.374162,Shingle Roof,730
+A1231,Alarms,16-06-2015,Out of Service,Room 37,3714.97739,Carbon Monoxide Alarm,1095
+A1232,Water Supply Systems,24-01-2016,Good,Room 17,1367.138629,Pressure Booster Pump,1460
+A1233,Gas Supply Systems,18-11-2010,Used,Room 47,2126.723922,Gas Meter,1825
+A1234,HVAC Systems,04-05-2010,Out of Service,Room 41,3585.957708,Furnace,1825
+A1235,CCTV,23-11-2018,Needs Repair,Room 37,921.6462044,CCTV Camera Type A,1095
+A1236,Electrical Systems,04-03-2023,New,Room 2,3393.541339,Emergency Generator,1095
+A1237,HVAC Systems,14-04-2022,Needs Repair,Room 41,1703.038349,Furnace,1825
+A1238,Water Supply Systems,02-03-2011,New,Room 46,4641.786927,Pressure Booster Pump,1095
+A1239,Alarms,15-09-2019,Out of Service,Room 2,1720.39797,Burglar Alarm,1825
+A1240,Plumbing Systems,03-05-2010,New,Room 45,2297.301569,Piping Network,1825
+A1241,Gas Supply Systems,24-06-2014,Out of Service,Room 2,4617.434099,Gas Detector,1825
+A1242,Electrical Systems,09-03-2013,Out of Service,Room 39,4542.662488,Emergency Generator,1460
+A1243,Alarms,17-12-2014,Good,Room 4,2112.790877,Burglar Alarm,1095
+A1244,Roofing,25-07-2022,New,Room 46,1012.946126,Metal Roof,1095
+A1245,Water Supply Systems,13-02-2019,Used,Room 27,677.6873895,Pressure Booster Pump,2555
+A1246,Electrical Systems,01-01-2023,Out of Service,Room 24,3250.478362,Lighting System,730
+A1247,CCTV,04-08-2016,New,Room 39,3908.837586,CCTV Camera Type C,730
+A1248,Lifts,14-12-2015,New,Room 6,2289.060221,Passenger Lift,1825
+A1249,Alarms,14-06-2011,Good,Room 5,3937.589441,Burglar Alarm,365
+A1250,Alarms,23-08-2023,Out of Service,Room 43,3602.343706,Burglar Alarm,1825
+A1251,Water Supply Systems,26-06-2018,Good,Room 41,964.2275894,Water Tank,365
+A1252,Roofing,01-01-2024,Out of Service,Room 4,231.1133198,Metal Roof,365
+A1253,HVAC Systems,27-04-2013,Needs Repair,Room 49,322.738901,Ventilation Fan,2555
+A1254,Fire Safety Systems,08-05-2016,Good,Room 28,2870.668917,Fire Extinguisher,1095
+A1255,Gas Supply Systems,05-02-2020,Good,Room 25,2858.291001,Gas Pipeline,1095
+A1256,Electrical Systems,17-07-2021,Used,Room 30,1264.332157,Power Distribution Panel,1825
+A1257,Water Supply Systems,12-09-2020,Needs Repair,Room 27,2520.753985,Water Filtration System,2555
+A1258,Plumbing Systems,15-04-2021,Used,Room 36,694.2863004,Piping Network,2555
+A1259,Water Supply Systems,26-08-2023,Out of Service,Room 6,1954.86249,Pressure Booster Pump,1095
+A1260,Lifts,25-10-2014,New,Room 3,4055.475818,Freight Elevator,1460
+A1261,Fire Safety Systems,20-12-2016,Used,Room 21,2023.334771,Fire Extinguisher,1460
+A1262,Fire Safety Systems,10-04-2021,Used,Room 47,3563.332553,Sprinkler System,2555
+A1263,Lifts,24-10-2015,Used,Room 35,2637.28408,Service Lift,1460
+A1264,Plumbing Systems,25-02-2019,Out of Service,Room 11,623.8091892,Sewage Pump,1095
+A1265,Plumbing Systems,27-11-2010,Needs Repair,Room 24,2512.070512,Sewage Pump,1460
+A1266,Electrical Systems,01-05-2018,Out of Service,Room 49,3204.605631,Lighting System,730
+A1267,Fire Safety Systems,11-03-2011,Out of Service,Room 16,2971.14711,Fire Extinguisher,1095
+A1268,Fire Safety Systems,11-03-2016,Needs Repair,Room 31,4924.12455,Sprinkler System,1460
+A1269,Water Supply Systems,22-09-2013,Out of Service,Room 28,375.245917,Pressure Booster Pump,2555
+A1270,Plumbing Systems,07-12-2022,Good,Room 39,4918.480779,Piping Network,2555
+A1271,Alarms,13-11-2017,Needs Repair,Room 22,1794.300745,Burglar Alarm,1825
+A1272,CCTV,05-05-2018,Used,Room 38,1149.154206,CCTV Camera Type C,1095
+A1273,Gas Supply Systems,28-06-2017,Needs Repair,Room 27,2710.49573,Gas Detector,1460
+A1274,Lifts,07-06-2023,New,Room 28,2962.523474,Service Lift,1095
+A1275,Lifts,13-06-2012,Out of Service,Room 10,2386.126379,Passenger Lift,2555
+A1276,Lifts,19-07-2020,New,Room 1,2370.718642,Freight Elevator,1460
+A1277,HVAC Systems,16-02-2011,Good,Room 24,1854.387506,Furnace,1095
+A1278,Water Supply Systems,05-09-2011,Out of Service,Room 18,312.8611543,Water Tank,1095
+A1279,Fire Safety Systems,31-05-2010,New,Room 4,1228.474259,Sprinkler System,1825
+A1280,Plumbing Systems,01-04-2013,Needs Repair,Room 41,4095.814946,Water Heater,1460
+A1281,Plumbing Systems,01-11-2019,New,Room 44,879.9185457,Water Heater,730
+A1282,Electrical Systems,06-05-2014,Needs Repair,Room 25,4460.970925,Lighting System,365
+A1283,Roofing,25-06-2014,Out of Service,Room 42,376.0048908,Shingle Roof,1095
+A1284,Plumbing Systems,19-11-2015,Used,Room 43,4997.16475,Piping Network,1460
+A1285,Roofing,03-09-2010,Needs Repair,Room 17,1512.638129,Shingle Roof,2555
+A1286,CCTV,06-04-2019,Out of Service,Room 1,4642.57422,CCTV Camera Type A,1460
+A1287,Electrical Systems,05-01-2019,New,Room 12,676.7138491,Power Distribution Panel,1095
+A1288,Roofing,29-01-2023,New,Room 14,3564.633852,Shingle Roof,1095
+A1289,Water Supply Systems,30-10-2014,Out of Service,Room 47,253.2097324,Water Tank,2555
+A1290,Alarms,11-01-2010,Good,Room 23,2163.655461,Burglar Alarm,730
+A1291,Alarms,26-07-2017,Out of Service,Room 42,4905.235743,Carbon Monoxide Alarm,1095
+A1292,Alarms,17-01-2018,Out of Service,Room 40,3935.941041,Carbon Monoxide Alarm,1095
+A1293,Electrical Systems,15-09-2023,Good,Room 32,3294.107896,Lighting System,1095
+A1294,Gas Supply Systems,08-03-2010,Used,Room 5,2771.588651,Gas Meter,730
+A1295,Lifts,01-03-2019,Used,Room 4,3067.646924,Passenger Lift,1825
+A1296,Alarms,26-10-2013,Used,Room 41,3234.088875,Burglar Alarm,1825
+A1297,Electrical Systems,20-01-2017,Good,Room 15,4287.167808,Power Distribution Panel,1095
+A1298,Gas Supply Systems,19-04-2016,Used,Room 50,2301.964751,Gas Meter,1095
+A1299,CCTV,06-06-2015,Out of Service,Room 36,2787.093403,CCTV Camera Type A,1460
+A1300,Alarms,19-09-2022,Used,Room 5,3690.375901,Fire Alarm,365
+A1301,Water Supply Systems,09-03-2019,Good,Room 12,3018.283348,Pressure Booster Pump,1825
+A1302,Electrical Systems,29-12-2015,Needs Repair,Room 22,1970.067017,Lighting System,1095
+A1303,Alarms,23-09-2023,Out of Service,Room 39,2656.971837,Burglar Alarm,730
+A1304,CCTV,14-11-2018,Needs Repair,Room 5,559.1784463,CCTV Camera Type A,1825
+A1305,Water Supply Systems,02-09-2019,Good,Room 18,1275.979269,Water Tank,730
+A1306,Alarms,31-07-2016,Good,Room 18,2292.401412,Burglar Alarm,1825
+A1307,Water Supply Systems,10-08-2011,Used,Room 37,286.1611152,Pressure Booster Pump,1460
+A1308,Electrical Systems,15-06-2022,New,Room 25,748.9044288,Lighting System,1825
+A1309,Plumbing Systems,07-04-2012,Needs Repair,Room 16,4247.339782,Water Heater,1825
+A1310,Lifts,25-09-2017,New,Room 15,4148.880139,Service Lift,1095
+A1311,Alarms,09-06-2011,Good,Room 39,4554.591739,Carbon Monoxide Alarm,1825
+A1312,Water Supply Systems,15-09-2017,New,Room 17,3784.628225,Water Filtration System,365
+A1313,Alarms,29-09-2021,Good,Room 3,2768.108842,Fire Alarm,1095
+A1314,Electrical Systems,16-07-2020,Needs Repair,Room 39,4386.835082,Emergency Generator,730
+A1315,Alarms,09-01-2010,Out of Service,Room 50,658.2489654,Carbon Monoxide Alarm,2555
+A1316,HVAC Systems,23-04-2012,New,Room 38,4351.596414,Furnace,1825
+A1317,Alarms,14-07-2015,New,Room 2,659.1901055,Burglar Alarm,365
+A1318,Gas Supply Systems,16-06-2023,New,Room 9,3063.537246,Gas Meter,1825
+A1319,Gas Supply Systems,06-05-2014,Needs Repair,Room 20,457.5856951,Gas Meter,1095
+A1320,Alarms,16-11-2010,New,Room 29,2434.820183,Burglar Alarm,1825
+A1321,Lifts,20-01-2023,Needs Repair,Room 16,2832.026236,Passenger Lift,1095
+A1322,Electrical Systems,17-06-2018,Out of Service,Room 25,1610.468401,Emergency Generator,1460
+A1323,HVAC Systems,11-06-2019,Out of Service,Room 38,3182.382804,Furnace,730
+A1324,HVAC Systems,26-02-2014,Needs Repair,Room 40,148.3412293,Central Air Conditioner,1460
+A1325,Electrical Systems,16-01-2012,New,Room 21,452.9875198,Power Distribution Panel,365
+A1326,Gas Supply Systems,07-04-2010,Good,Room 19,2027.524927,Gas Meter,1825
+A1327,Gas Supply Systems,19-10-2021,Good,Room 41,484.7676213,Gas Pipeline,1095
+A1328,Roofing,17-08-2019,Needs Repair,Room 3,715.8168923,Metal Roof,1460
+A1329,CCTV,14-11-2013,Used,Room 45,1874.594395,CCTV Camera Type B,730
+A1330,Gas Supply Systems,07-02-2017,Out of Service,Room 29,424.5064325,Gas Detector,1460
+A1331,Electrical Systems,29-10-2014,Good,Room 27,1172.95127,Emergency Generator,1825
+A1332,Plumbing Systems,04-01-2023,Used,Room 39,619.9192318,Sewage Pump,2555
+A1333,Water Supply Systems,19-04-2020,Out of Service,Room 19,1485.919446,Water Tank,1825
+A1334,Plumbing Systems,08-05-2016,Used,Room 47,4625.312888,Water Heater,2555
+A1335,Plumbing Systems,27-04-2012,Out of Service,Room 40,3774.463385,Piping Network,1095
+A1336,Gas Supply Systems,08-04-2018,Used,Room 17,4980.155674,Gas Pipeline,365
+A1337,Plumbing Systems,16-05-2010,New,Room 25,4195.668112,Water Heater,1825
+A1338,Water Supply Systems,07-10-2013,Good,Room 15,1752.752008,Pressure Booster Pump,1460
+A1339,Plumbing Systems,06-04-2016,Good,Room 22,3698.666513,Piping Network,1825
+A1340,Electrical Systems,30-12-2023,Needs Repair,Room 50,1358.218653,Power Distribution Panel,1825
+A1341,Lifts,14-10-2016,New,Room 32,592.582493,Service Lift,1460
+A1342,Electrical Systems,20-03-2021,New,Room 14,2304.767861,Lighting System,1825
+A1343,Gas Supply Systems,03-12-2018,Out of Service,Room 11,1658.047267,Gas Detector,365
+A1344,CCTV,27-11-2015,Out of Service,Room 33,3296.716822,CCTV Camera Type B,1460
+A1345,HVAC Systems,10-06-2018,Good,Room 7,2362.055359,Ventilation Fan,1825
+A1346,Electrical Systems,17-07-2022,Good,Room 17,4270.0183,Power Distribution Panel,365
+A1347,Lifts,19-08-2012,Used,Room 8,1360.571111,Service Lift,1460
+A1348,Lifts,05-07-2019,Out of Service,Room 6,1867.016058,Passenger Lift,2555
+A1349,Roofing,07-04-2020,Used,Room 22,3851.761272,Shingle Roof,1825
+A1350,HVAC Systems,04-05-2022,New,Room 21,4200.736367,Central Air Conditioner,1095
+A1351,CCTV,26-08-2013,Good,Room 32,260.3300834,CCTV Camera Type A,365
+A1352,Plumbing Systems,30-04-2015,Used,Room 14,4054.408013,Piping Network,730
+A1353,Alarms,16-09-2014,Needs Repair,Room 30,3053.74479,Carbon Monoxide Alarm,1825
+A1354,Roofing,19-04-2016,Used,Room 40,1989.540463,Shingle Roof,1460
+A1355,Roofing,08-02-2020,Good,Room 42,3081.256756,Flat Roof,1825
+A1356,Electrical Systems,31-03-2017,Needs Repair,Room 15,1669.588334,Power Distribution Panel,1095
+A1357,Water Supply Systems,29-01-2020,Used,Room 18,2678.115407,Water Tank,1825
+A1358,Gas Supply Systems,29-05-2023,Good,Room 34,3894.759031,Gas Pipeline,1095
+A1359,Plumbing Systems,07-07-2015,Out of Service,Room 1,755.2134651,Piping Network,1095
+A1360,Water Supply Systems,15-09-2020,New,Room 7,560.6311324,Pressure Booster Pump,1825
+A1361,Alarms,07-11-2014,Out of Service,Room 27,2054.445665,Carbon Monoxide Alarm,1460
+A1362,HVAC Systems,29-03-2019,Used,Room 18,418.8049458,Ventilation Fan,1095
+A1363,Lifts,06-07-2015,Needs Repair,Room 6,2419.308955,Freight Elevator,1460
+A1364,CCTV,28-04-2014,Needs Repair,Room 6,3061.459612,CCTV Camera Type C,1460
+A1365,Gas Supply Systems,31-10-2013,Good,Room 29,1136.599127,Gas Detector,1095
+A1366,Water Supply Systems,03-02-2016,Good,Room 40,4619.390876,Water Tank,365
+A1367,Roofing,27-12-2022,Needs Repair,Room 27,3677.550593,Metal Roof,730
+A1368,CCTV,14-11-2013,New,Room 15,884.209326,CCTV Camera Type A,1095
+A1369,Gas Supply Systems,15-05-2021,Used,Room 38,3387.309314,Gas Meter,365
+A1370,Lifts,02-03-2013,Good,Room 42,1655.265607,Freight Elevator,1825
+A1371,Roofing,26-01-2012,Out of Service,Room 28,2948.310331,Flat Roof,1095
+A1372,Gas Supply Systems,18-07-2020,Out of Service,Room 15,3308.363337,Gas Pipeline,1095
+A1373,Electrical Systems,05-06-2021,Used,Room 48,3116.666118,Power Distribution Panel,1095
+A1374,Electrical Systems,26-10-2016,Needs Repair,Room 28,4116.557081,Emergency Generator,1460
+A1375,HVAC Systems,15-10-2020,Out of Service,Room 3,3493.014898,Central Air Conditioner,1825
+A1376,Plumbing Systems,13-02-2011,Used,Room 6,2553.902109,Water Heater,730
+A1377,Lifts,27-12-2018,Needs Repair,Room 1,3571.044032,Passenger Lift,1825
+A1378,Alarms,26-02-2020,Good,Room 38,339.2195731,Fire Alarm,365
+A1379,CCTV,07-05-2022,Needs Repair,Room 2,2539.306664,CCTV Camera Type B,2555
+A1380,Electrical Systems,23-05-2010,Good,Room 29,4392.079364,Emergency Generator,730
+A1381,HVAC Systems,17-12-2014,Needs Repair,Room 36,863.1923477,Furnace,1825
+A1382,Plumbing Systems,07-03-2022,New,Room 11,3095.272085,Water Heater,1460
+A1383,CCTV,02-10-2011,Out of Service,Room 11,1909.123623,CCTV Camera Type B,1460
+A1384,Alarms,02-05-2015,Out of Service,Room 47,2583.30527,Carbon Monoxide Alarm,730
+A1385,Roofing,10-02-2013,New,Room 26,462.9376239,Shingle Roof,1825
+A1386,HVAC Systems,26-07-2011,Out of Service,Room 40,1298.987013,Furnace,1460
+A1387,Plumbing Systems,11-07-2017,Out of Service,Room 13,4087.537257,Piping Network,730
+A1388,Gas Supply Systems,28-01-2013,Good,Room 5,4296.434067,Gas Detector,365
+A1389,Plumbing Systems,05-08-2013,New,Room 11,945.7552901,Water Heater,1825
+A1390,Water Supply Systems,22-04-2014,Good,Room 10,4371.750111,Water Filtration System,1095
+A1391,Fire Safety Systems,03-09-2014,Good,Room 16,1152.006251,Sprinkler System,1825
+A1392,Plumbing Systems,20-04-2011,Good,Room 5,3652.829766,Piping Network,730
+A1393,Plumbing Systems,14-06-2010,Used,Room 12,4076.210661,Sewage Pump,1460
+A1394,Roofing,18-05-2016,Good,Room 42,2165.418379,Metal Roof,1825
+A1395,Plumbing Systems,13-03-2020,Out of Service,Room 20,4927.819827,Piping Network,365
+A1396,HVAC Systems,07-09-2023,Out of Service,Room 5,1129.261924,Central Air Conditioner,1095
+A1397,Plumbing Systems,25-01-2019,New,Room 13,2958.580035,Water Heater,1460
+A1398,HVAC Systems,29-05-2016,Out of Service,Room 11,3120.188624,Furnace,1095
+A1399,CCTV,07-04-2015,Good,Room 39,826.8578327,CCTV Camera Type C,365
+A1400,Gas Supply Systems,12-08-2023,Used,Room 12,2569.109831,Gas Detector,1825
+A1401,CCTV,17-01-2016,Out of Service,Room 26,1368.502384,CCTV Camera Type A,1460
+A1402,HVAC Systems,19-07-2019,Needs Repair,Room 36,3624.242112,Central Air Conditioner,1825
+A1403,Fire Safety Systems,18-11-2014,Used,Room 28,2574.591763,Fire Extinguisher,1825
+A1404,Plumbing Systems,20-10-2020,New,Room 3,1175.074504,Piping Network,730
+A1405,CCTV,17-11-2015,Good,Room 12,4352.300166,CCTV Camera Type B,1460
+A1406,Fire Safety Systems,18-08-2021,Out of Service,Room 1,1750.482732,Smoke Detector,1460
+A1407,Fire Safety Systems,03-05-2017,Out of Service,Room 40,4367.655168,Smoke Detector,1095
+A1408,Lifts,03-11-2017,Good,Room 47,969.6920675,Passenger Lift,1460
+A1409,Alarms,19-12-2020,Out of Service,Room 38,4611.926955,Burglar Alarm,1460
+A1410,Plumbing Systems,11-05-2020,Used,Room 27,2260.812887,Piping Network,730
+A1411,Plumbing Systems,25-10-2018,Used,Room 13,4324.960379,Water Heater,1825
+A1412,Fire Safety Systems,30-09-2021,Needs Repair,Room 29,3020.936024,Smoke Detector,365
+A1413,Alarms,20-07-2021,Good,Room 34,1990.00506,Burglar Alarm,365
+A1414,CCTV,16-03-2019,New,Room 8,56.63834579,CCTV Camera Type B,730
+A1415,Electrical Systems,05-10-2013,Used,Room 28,548.9539928,Emergency Generator,1825
+A1416,CCTV,16-12-2020,Out of Service,Room 38,71.06823596,CCTV Camera Type C,1825
+A1417,Water Supply Systems,03-04-2014,Needs Repair,Room 48,1966.246253,Water Filtration System,730
+A1418,Gas Supply Systems,30-01-2015,New,Room 30,1589.102194,Gas Meter,1460
+A1419,Lifts,05-01-2019,Needs Repair,Room 6,1960.01924,Passenger Lift,730
+A1420,CCTV,13-12-2016,New,Room 26,4286.696482,CCTV Camera Type A,1825
+A1421,Gas Supply Systems,14-04-2020,Good,Room 44,2532.888365,Gas Meter,1460
+A1422,Plumbing Systems,03-05-2017,Good,Room 27,3221.626956,Piping Network,1825
+A1423,CCTV,18-11-2010,Needs Repair,Room 9,4308.215604,CCTV Camera Type B,1825
+A1424,Water Supply Systems,28-04-2020,Needs Repair,Room 44,3500.740469,Water Tank,1460
+A1425,Plumbing Systems,05-03-2020,Needs Repair,Room 13,2400.898113,Water Heater,1460
+A1426,HVAC Systems,03-11-2014,Out of Service,Room 21,2185.06682,Ventilation Fan,1825
+A1427,Fire Safety Systems,30-04-2019,Good,Room 38,3165.70862,Sprinkler System,1825
+A1428,Gas Supply Systems,05-08-2020,Needs Repair,Room 32,2693.450018,Gas Pipeline,1825
+A1429,HVAC Systems,16-09-2018,Out of Service,Room 7,2337.246682,Furnace,2555
+A1430,Alarms,27-03-2023,Needs Repair,Room 45,3611.899086,Fire Alarm,1095
+A1431,Electrical Systems,04-04-2021,Used,Room 46,1868.385301,Power Distribution Panel,1095
+A1432,HVAC Systems,03-07-2010,Out of Service,Room 50,1947.686165,Furnace,1825
+A1433,Lifts,10-10-2015,Used,Room 30,210.7499722,Passenger Lift,1825
+A1434,Alarms,01-08-2014,Out of Service,Room 13,1040.659022,Burglar Alarm,1825
+A1435,Water Supply Systems,25-10-2017,New,Room 40,2276.542848,Water Filtration System,1095
+A1436,Electrical Systems,16-11-2020,New,Room 42,3390.829902,Power Distribution Panel,1460
+A1437,Lifts,25-01-2021,New,Room 32,3394.078629,Passenger Lift,1825
+A1438,Fire Safety Systems,26-06-2017,Used,Room 48,3025.217479,Smoke Detector,1095
+A1439,HVAC Systems,30-03-2013,Used,Room 11,1013.76182,Ventilation Fan,1825
+A1440,Roofing,19-01-2013,Out of Service,Room 5,3496.969037,Shingle Roof,1825
+A1441,HVAC Systems,21-05-2010,Good,Room 47,1619.80786,Ventilation Fan,365
+A1442,Fire Safety Systems,21-01-2016,New,Room 46,431.0197369,Fire Extinguisher,1460
+A1443,Gas Supply Systems,11-11-2020,Used,Room 6,2355.4007,Gas Meter,1460
+A1444,Plumbing Systems,01-01-2015,Good,Room 24,2407.199142,Sewage Pump,1460
+A1445,HVAC Systems,26-01-2015,Used,Room 15,2849.248985,Furnace,365
+A1446,Lifts,22-06-2014,Out of Service,Room 18,1839.331673,Freight Elevator,2555
+A1447,Lifts,01-12-2019,Needs Repair,Room 27,4342.562313,Service Lift,1095
+A1448,Roofing,12-10-2017,Used,Room 23,2192.140963,Metal Roof,1460
+A1449,Alarms,02-01-2021,Needs Repair,Room 33,1002.828745,Burglar Alarm,1825
+A1450,HVAC Systems,22-06-2014,Used,Room 47,587.5535708,Ventilation Fan,2555
+A1451,Plumbing Systems,18-12-2016,New,Room 11,2866.812075,Water Heater,1825
+A1452,Fire Safety Systems,11-03-2020,New,Room 12,3845.886025,Smoke Detector,1825
+A1453,Gas Supply Systems,29-05-2011,Out of Service,Room 22,2239.203356,Gas Pipeline,1095
+A1454,HVAC Systems,28-10-2011,New,Room 26,2470.992157,Furnace,1825
+A1455,Water Supply Systems,14-09-2011,Needs Repair,Room 41,599.0504856,Water Tank,1825
+A1456,Electrical Systems,18-10-2021,Needs Repair,Room 35,530.6240488,Lighting System,730
+A1457,CCTV,20-04-2017,Out of Service,Room 36,1705.782952,CCTV Camera Type A,2555
+A1458,Plumbing Systems,31-03-2021,Good,Room 6,3809.722733,Water Heater,1095
+A1459,Water Supply Systems,20-05-2013,Used,Room 28,3870.090315,Water Filtration System,1095
+A1460,HVAC Systems,25-11-2012,Good,Room 50,1043.939798,Ventilation Fan,2555
+A1461,Lifts,25-11-2011,Good,Room 2,374.5809291,Service Lift,365
+A1462,Electrical Systems,19-11-2010,New,Room 17,2298.398399,Lighting System,1825
+A1463,Alarms,04-11-2017,Out of Service,Room 13,4712.189687,Carbon Monoxide Alarm,365
+A1464,Gas Supply Systems,08-10-2010,Used,Room 36,1091.42889,Gas Meter,1825
+A1465,Gas Supply Systems,02-07-2016,Needs Repair,Room 37,1500.555847,Gas Pipeline,1460
+A1466,Water Supply Systems,13-06-2023,Used,Room 32,200.9628778,Pressure Booster Pump,1095
+A1467,Plumbing Systems,15-09-2017,Used,Room 19,1557.633636,Piping Network,1825
+A1468,HVAC Systems,11-11-2016,Needs Repair,Room 31,1879.744879,Ventilation Fan,1460
+A1469,Roofing,17-04-2019,Used,Room 36,1374.982396,Shingle Roof,365
+A1470,Gas Supply Systems,20-04-2021,Needs Repair,Room 49,692.7702881,Gas Detector,1825
+A1471,Gas Supply Systems,16-04-2012,Needs Repair,Room 13,4977.154096,Gas Detector,1095
+A1472,Electrical Systems,10-04-2023,Needs Repair,Room 29,3494.16436,Power Distribution Panel,1825
+A1473,Electrical Systems,07-03-2013,Used,Room 45,1931.739314,Emergency Generator,1460
+A1474,CCTV,02-11-2019,New,Room 16,4002.677977,CCTV Camera Type A,365
+A1475,Gas Supply Systems,09-12-2022,Needs Repair,Room 20,3608.424663,Gas Meter,1460
+A1476,Roofing,30-01-2019,New,Room 37,3224.046457,Flat Roof,730
+A1477,Alarms,20-04-2011,Used,Room 11,3565.917334,Burglar Alarm,730
+A1478,Alarms,01-11-2014,Out of Service,Room 2,2063.900014,Carbon Monoxide Alarm,1095
+A1479,Fire Safety Systems,29-06-2022,Out of Service,Room 10,1115.485244,Fire Extinguisher,730
+A1480,Lifts,03-05-2014,Good,Room 15,203.252559,Passenger Lift,2555
+A1481,CCTV,14-01-2018,Needs Repair,Room 46,4435.393614,CCTV Camera Type B,1460
+A1482,CCTV,25-09-2023,Needs Repair,Room 4,835.0057211,CCTV Camera Type A,1825
+A1483,CCTV,18-11-2010,Good,Room 22,2730.062425,CCTV Camera Type B,1825
+A1484,Fire Safety Systems,18-04-2023,Good,Room 12,497.2876143,Fire Extinguisher,1460
+A1485,Roofing,30-11-2013,Needs Repair,Room 14,3037.109067,Metal Roof,2555
+A1486,Fire Safety Systems,30-05-2020,Good,Room 15,1135.223543,Fire Extinguisher,1825
+A1487,Alarms,08-02-2012,Needs Repair,Room 46,812.0227282,Fire Alarm,730
+A1488,Lifts,21-09-2022,Out of Service,Room 21,3169.162558,Freight Elevator,1825
+A1489,Plumbing Systems,23-11-2022,New,Room 44,3654.366177,Sewage Pump,1825
+A1490,Fire Safety Systems,04-10-2017,New,Room 45,1513.84148,Smoke Detector,2555
+A1491,Roofing,19-05-2011,Used,Room 46,701.6803432,Flat Roof,1825
+A1492,Plumbing Systems,23-06-2019,Needs Repair,Room 8,251.2186567,Water Heater,365
+A1493,Roofing,30-12-2023,Out of Service,Room 32,4145.798157,Metal Roof,1825
+A1494,HVAC Systems,26-06-2021,Out of Service,Room 43,3986.625811,Ventilation Fan,1460
+A1495,CCTV,03-01-2013,Good,Room 9,4103.590125,CCTV Camera Type C,1095
+A1496,CCTV,24-10-2022,New,Room 26,2077.515524,CCTV Camera Type A,730
+A1497,Lifts,29-12-2017,Out of Service,Room 10,352.8894856,Service Lift,2555
+A1498,Alarms,23-09-2019,Good,Room 45,329.9416297,Burglar Alarm,1095
+A1499,Gas Supply Systems,18-02-2010,New,Room 7,2178.461102,Gas Detector,1460
