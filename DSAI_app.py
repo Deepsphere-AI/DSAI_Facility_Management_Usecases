@@ -35,7 +35,7 @@ if __name__=='__main__':
                 
             with col4:
 
-                vAR_vendor = vAR_st.selectbox(' ',["Select Usecase","Space Optimization","Building Layout Recommendation","Asset & Inventory Management","WaterPump Failure Prediction"])
+                vAR_vendor = vAR_st.selectbox(' ',["Select Usecase","Space Optimization","Building Layout Recommendation","Asset & Inventory Management","Predictive Maintenance(WaterPump)"])
             
             
             if vAR_vendor=='Space Optimization':
@@ -45,7 +45,7 @@ if __name__=='__main__':
                 LayoutSuggestion()
             elif vAR_vendor=="Asset & Inventory Management":
                 InventoryManagement()
-            elif vAR_vendor=="WaterPump Failure Prediction":
+            elif vAR_vendor=="Predictive Maintenance(WaterPump)":
                 WaterPumpMaintenance()
             else:
                 pass
